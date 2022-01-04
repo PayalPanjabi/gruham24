@@ -267,7 +267,7 @@
     <!-- ============================================================== -->
     <!-- Start Navigation -->
     <div class="header header-light head-shadow" 
-    style="opacity: 1;z-index: 999;">
+    style="opacity: 1;z-index: 999;background:#303637;">
         <div class="container">
             <nav id="navigation" class="navigation navigation-landscape">
                 <div class="nav-header">
@@ -281,8 +281,8 @@
                 <ul class="nav-menu lg-device" style="margin-left: 550px;">
 
                     <li class="menu-item-has-children" >
-                    <a href="tel:+91 9578024024" style="border: 1px solid #ffc107;
-                        color: #ffc107;font-size: 12px;padding: 12px 19px;width: 200px;text-align: center;margin-top: 20px;border-radius: 26px;">
+                    <a href="tel:+91 9578024024" style="border: 1px solid #fff;
+                        color: #fff;font-size: 12px;padding: 12px 19px;width: 200px;text-align: center;margin-top: 20px;border-radius: 26px;">
                     
                         <i class="fas fa-phone" style="font-size: 14px;"></i>&nbsp; +91 9578024024</a>
                     </li>

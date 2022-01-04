@@ -21,8 +21,8 @@ if (is_plugin_active('location')) {
         <div class="row justify-content-center">
             <div class="col-lg-7 col-md-10 text-center">
                 <div class="sec-heading center">
-                    <h2>{!! clean($title) !!}</h2>
-                    <p>{!! clean($description) !!}</p>
+                    <!-- <h2>{!! clean($title) !!}</h2>
+                    <p>{!! clean($description) !!}</p> -->
                 </div>
             </div>
         </div>
@@ -40,7 +40,7 @@ if (is_plugin_active('location')) {
                         </div>
                         <div class="location-property-content">
                             <div class="lp-content-flex">
-                                <h4 class="lp-content-title">{{ $city->name }}</h4>
+                                <h4 class="lp-content-title">{{ $states->name }}</h4>
                                 <span>{{ $city->properties_count }} {{ __('Properties') }}</span>
                             </div>
                             <div class="lp-content-right">
@@ -53,12 +53,12 @@ if (is_plugin_active('location')) {
             @endforeach
         </div>
 
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 text-center">
                 <a href="{{ route('public.properties') }}"
                     class="btn btn-theme-light-2 rounded">{{ __('Browse More Locations') }}</a>
             </div>
-        </div>
+        </div> -->
 
     </div>
 </section>

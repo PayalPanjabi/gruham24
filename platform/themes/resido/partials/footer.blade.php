@@ -5,16 +5,15 @@
     <div class="py-5">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-4">
+                <div class="col-lg-3 col-md-4 copyright">
                     <h3 style="color:#fff;font-size:14px;">Property in Top Country</h3>
                     <ul style="list-style: none;margin-left: 0;padding-left: 0;">
                         <li style="margin-bottom: 7px;"><a href="" style="font-size:12px;">Property in India</a></li>
                         <li style="margin-bottom: 7px;"><a href="" style="font-size:12px;">Residential Property in India</a></li>
                         <li style="margin-bottom: 7px;"><a href="" style="font-size:12px;">Commercial Property in India</a></li>
-                        
                     </ul>
                 </div>
-                <div class="col-lg-3 col-md-4">
+                <div class="col-lg-3 col-md-4 copyright">
                     <h3 style="color:#fff;font-size:14px;">Property in Top State</h3>
                     <ul style="list-style: none;margin-left: 0;padding-left: 0;">
                         <li style="margin-bottom: 7px;"><a href="" style="font-size:12px;">Property in Haryana</a></li>
@@ -23,7 +22,7 @@
                         
                     </ul>
                 </div>
-                <div class="col-lg-3 col-md-4">
+                <div class="col-lg-3 col-md-4 copyright">
                     <h3 style="color:#fff;font-size:14px;">Property in Top City</h3>
                     <ul style="list-style: none;margin-left: 0;padding-left: 0;">
                         <li style="margin-bottom: 7px;"><a href="" style="font-size:12px;">Property in Gurgaon</a></li>
@@ -32,7 +31,7 @@
                         
                     </ul>
                 </div>
-                <div class="col-lg-3 col-md-4">
+                <div class="col-lg-3 col-md-4 copyright" >
                     <h3 style="color:#fff;font-size:14px;">Property in Popular Localities</h3>
                     <ul style="list-style: none;margin-left: 0;padding-left: 0;">
                         <li style="margin-bottom: 7px;"><a href="" style="font-size:12px;">Property in NH 8 Gurgaon</a></li>
@@ -51,7 +50,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-4">
-                    <div class="footer-widget">
+                    <div class="footer-widget copyright">
                         @if (theme_option('logo_white'))
                             <img src="/storage/general/logo-without-bg.png" class="img-footer"
                                  style="max-height: 147px" alt="{{ theme_option('site_name') }}">
@@ -65,24 +64,24 @@
                 </div>
                 <div class="col-lg-3 col-md-4">
                 
-                    <div class="footer-add">
+                    <div class="footer-add copyright">
                         <br>
-                    <h4 class="widget-title">Address</h4>
+                        <h4 class="widget-title">Address</h4>
                             @if (theme_option('address'))
-                                <p><i class="fas fa-map-marker-alt"></i>
+                                <p class="copyright"><i class="fas fa-map-marker-alt"></i>
                                 Office No-401, 4th Floor, Global Business Hub, Opp Eon IT Park, Kharadi, Pune - 411014
                                  <!-- {{ theme_option('address') }} -->
                                 </p>
                             @endif
                             @if (theme_option('hotline'))
-                                <p><i class="fas fa-phone-square"></i> 
+                                <p class="copyright"><i class="fas fa-phone-square"></i> 
                                     +91 957 802 4024,
                                     +91 914 557 9191
                                     <!-- {{ theme_option('hotline') }} -->
                                 </p>
                             @endif
                             @if (theme_option('email'))
-                                <p><i class="fas fa-envelope"></i> 
+                                <p class="copyright"><i class="fas fa-envelope"></i> 
                                 bharat@gruham24.com
                                 <!-- {{ theme_option('email') }} -->
                                 </p>
@@ -90,12 +89,12 @@
                         </div>
                 </div>
                 <div class="col-sm-6">
-                    <div class="row">
+                    <div class="row copyright" >
                         {!! dynamic_sidebar('footer_sidebar_2') !!}
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6 copyright">
                     {!! dynamic_sidebar('footer_sidebar_3') !!}
                 </div>
             </div>
@@ -106,15 +105,15 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-6">
-                    <p class="mb-0">
+                    <p class="mb-0 copyright">
                     ©2021 Gruham24, All rights reserved by Gruham24.
                         <!-- {!! clean(theme_option('copyright')) !!} -->
                     </p>
                 </div>
 
-                <div class="col-lg-6 col-md-6">
+                <div class="col-lg-6 col-md-6 ">
                     @if (theme_option('social_links'))
-                        <ul class="footer-bottom-social">
+                        <ul class="footer-bottom-social copyright">
                             @foreach(json_decode(theme_option('social_links'), true) as $socialLink)
                                 @if (count($socialLink) == 3)
                                     <li><a href="{{ $socialLink[2]['value'] }}" target="_blank"

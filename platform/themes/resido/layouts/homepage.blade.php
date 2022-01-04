@@ -1,4 +1,14 @@
-{!! Theme::partial('header') !!}
+
+@if (url()->full() == URL::to('/'."/login"))
+
+    {!! Theme::partial('header') !!}
+    @else
+
+{!! Theme::partial('header_new') !!}
+
+@endif
+
+
 
 <div id="app">
     <div id="ismain-homes" style="margin-top: -92px;z-index: -1;">
