@@ -55,7 +55,7 @@ $lang = 'en';
 <html lang="en">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,height=device-height,minimum-scale=1">
-<link rel="shortcut icon" href="https://www.gstatic.com/recaptcha/admin/favicon.ico" type="image/x-icon"/>
+<link rel="shortcut icon" href="https://www.gstatic.com/recaptcha/admin/fav.png" type="image/x-icon"/>
 <link rel="canonical" href="https://recaptcha-demo.appspot.com/recaptcha-v2-invisible.php">
 <script type="application/ld+json">{ "@context": "http://schema.org", "@type": "WebSite", "name": "reCAPTCHA demo - Invisible", "url": "https://recaptcha-demo.appspot.com/recaptcha-v2-invisible.php" }</script>
 <meta name="description" content="reCAPTCHA demo - Invisible" />

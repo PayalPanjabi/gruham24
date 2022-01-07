@@ -40,7 +40,7 @@ if (is_plugin_active('location')) {
                         </div>
                         <div class="location-property-content">
                             <div class="lp-content-flex">
-                                <h4 class="lp-content-title">{{ $states->name }}</h4>
+                                <h4 class="lp-content-title">{{ $city->name }}</h4>
                                 <span>{{ $city->properties_count }} {{ __('Properties') }}</span>
                             </div>
                             <div class="lp-content-right">

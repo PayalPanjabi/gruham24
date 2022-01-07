@@ -94,7 +94,7 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="md-form mb-0">
-                                    <input type="tel" id="MobileNumber" name="MobileNumber" class="form-control input-box"
+                                    <input type="tel" id="MobileNumber" name="phone" class="form-control input-box"
                                      placeholder="Mobile Number">
                                     <!-- <label for="subject" class="">Subject</label> -->
                                 </div>

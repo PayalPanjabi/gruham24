@@ -424,3 +424,11 @@ function addLoginOptionsByTheme($html)
 function get_image_loading() {
     return RvMedia::getImageUrl(theme_option('img_loading'));
 }
+// menu hide..
+Event::listen(\Illuminate\Routing\Events\RouteMatched::class, function () {
+    dashboard_menu()
+        ->removeItem('cms-plugins-payments')
+        ->removeItem('cms-plugins-newsletter')
+        ->removeItem('cms-core-plugins');
+});
+

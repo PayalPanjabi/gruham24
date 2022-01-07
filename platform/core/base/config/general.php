@@ -5,7 +5,7 @@ return [
     'default-theme'             => env('DEFAULT_THEME', 'default'),
     'base_name'                 => env('APP_NAME', 'Botble Technologies'),
     'logo'                      => '/vendor/core/core/base/images/logo_white.png',
-    'favicon'                   => '/vendor/core/core/base/images/favicon.png',
+    'favicon'                   => '/vendor/core/core/base/images/fav.png',
     'editor'                    => [
         'ckeditor' => [
             'js' => [
