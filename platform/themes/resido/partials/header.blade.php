@@ -147,8 +147,67 @@
                 background: rgba(255, 255, 255, .6);
                 z-index: 1001;
             }
-         
+            
+           
     </style>
+     <script>
+          function showHover(e){
+    var boundingRect = e.getBoundingClientRect();
+    var top = boundingRect.top;
+    var bottom = boundingRect.bottom;
+    var left = boundingRect.left;
+    var right = boundingRect.right;
+  
+    console.log('viewportWidth: ' + window.visualViewport.width)
+    console.log('viewportHeight: ' + window.visualViewport.height)
+    console.log('mouseX: ' + e.onmouseover.arguments[0].clientX)
+    console.log('MouseY:' + e.onmouseover.arguments[0].clientY)
+
+    var mouseXCoords = e.onmouseover.arguments[0].clientX;
+    var mouseYCoords = e.onmouseover.arguments[0].clientY;
+    var hoverMenu = document.getElementById('hoverMenu');
+ 
+    
+    //calculate x draw room
+    var drawX = false;
+    if(window.visualViewport.width - mouseXCoords >= 300){
+      hoverMenu.style.left = mouseXCoords+'px';
+      drawX = true;
+    }
+    else if(mouseXCoords >= 300){
+      hoverMenu.style.left = ( mouseXCoords - 300 )+'px';
+      drawX = true
+    }
+    else {
+      drawX = false
+    }
+    
+    //calculate y draw room
+    var drawY = false;
+    if(window.visualViewport.height - mouseYCoords >= 300){
+      hoverMenu.style.top = mouseYCoords+'px';
+      var drawY = true;
+    }
+    else if(mouseYCoords >= 300){
+      hoverMenu.style.top = ( mouseYCoords - 300 )+'px';
+      var drawY = true;
+    }
+    //if there is space on this viewport but any cursor point position does not allow any room it wont draw. You will need to guess the best renderable area to draw the rect. I gave up due to time contraints. But the else if statement should go here when you want to fix this problem. Use the target div as the allowed renderable area x and y (left and top) to start from. if it's outside of this area then dont draw as you are no longer hovering.  
+    else {  
+      var drawY = false;
+    }
+    if(drawX && drawY){
+      hoverMenu.style.position = "absolute";
+      hoverMenu.style.display = 'block';    
+    }
+}
+
+function hideHover(e){
+  document.getElementById('hoverMenu').style.display = 'none';
+}
+
+
+    </script>
     <!-- popup form -->
     <script>
         function PopUp(hideOrshow) {
@@ -267,7 +326,7 @@
     <!-- ============================================================== -->
     <!-- Start Navigation -->
     <div class="header header-light head-shadow" 
-    style="opacity: 1;z-index: 999;background:#303637;">
+    style="opacity: 1;z-index: 999;background:#5B5B5B;">
         <div class="container">
             <nav id="navigation" class="navigation navigation-landscape">
                 <div class="nav-header">

@@ -148,7 +148,122 @@
                 z-index: 1001;
             }
          
+
+            .circle-before-icon {
+                width: 84px;
+                height: 84px;
+                margin-top: 332px;
+                border: solid 1px #979797;
+                border-radius: 50%;
+                background-color: transparent;
+                text-align: center;
+                margin: 0 auto;
+                transition: all 300ms ease-in-out;
+            }
+            .circle-before-icon:hover{
+                background-color: #f58220;
+                border-color: #f58220;
+                width: 84px;
+                 height: 84px;
+                border: solid 1px #979797;
+                border-radius: 50%;
+                text-align: center;
+                margin: 0 auto;
+                transition: all 300ms ease-in-out;
+                margin-top:-30px;
+            }
+            /* tooltip */
+            /* html, body {
+            height: 301px; 
+            overflow: hidden;
+            } */
+
+            .event {
+            height: 10em;
+            width: 10em;
+            background-color: blue;
+            margin: 1em;
+            }
+
+            /* .table {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            }
+
+            .row {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 1em;
+            } */
+
+            .hoverMenu {
+            display: none;
+            min-width: 300px;
+            min-height: 300px;
+            z-index: 3;
+            border: 1px solid grey;
+            }
     </style>
+    <script>
+          function showHover(e){
+    var boundingRect = e.getBoundingClientRect();
+    var top = boundingRect.top;
+    var bottom = boundingRect.bottom;
+    var left = boundingRect.left;
+    var right = boundingRect.right;
+  
+    console.log('viewportWidth: ' + window.visualViewport.width)
+    console.log('viewportHeight: ' + window.visualViewport.height)
+    console.log('mouseX: ' + e.onmouseover.arguments[0].clientX)
+    console.log('MouseY:' + e.onmouseover.arguments[0].clientY)
+
+    var mouseXCoords = e.onmouseover.arguments[0].clientX;
+    var mouseYCoords = e.onmouseover.arguments[0].clientY;
+    var hoverMenu = document.getElementById('hoverMenu');
+ 
+    
+    //calculate x draw room
+    var drawX = false;
+    if(window.visualViewport.width - mouseXCoords >= 300){
+      hoverMenu.style.left = mouseXCoords+'px';
+      drawX = true;
+    }
+    else if(mouseXCoords >= 300){
+      hoverMenu.style.left = ( mouseXCoords - 300 )+'px';
+      drawX = true
+    }
+    else {
+      drawX = false
+    }
+    
+    //calculate y draw room
+    var drawY = false;
+    if(window.visualViewport.height - mouseYCoords >= 300){
+      hoverMenu.style.top = mouseYCoords+'px';
+      var drawY = true;
+    }
+    else if(mouseYCoords >= 300){
+      hoverMenu.style.top = ( mouseYCoords - 300 )+'px';
+      var drawY = true;
+    }
+    //if there is space on this viewport but any cursor point position does not allow any room it wont draw. You will need to guess the best renderable area to draw the rect. I gave up due to time contraints. But the else if statement should go here when you want to fix this problem. Use the target div as the allowed renderable area x and y (left and top) to start from. if it's outside of this area then dont draw as you are no longer hovering.  
+    else {  
+      var drawY = false;
+    }
+    if(drawX && drawY){
+      hoverMenu.style.position = "absolute";
+      hoverMenu.style.display = 'block';    
+    }
+}
+
+function hideHover(e){
+  document.getElementById('hoverMenu').style.display = 'none';
+}
+
+
+    </script>
     <!-- popup form -->
     <script>
         function PopUp(hideOrshow) {

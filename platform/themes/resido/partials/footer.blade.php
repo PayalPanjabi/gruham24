@@ -75,8 +75,8 @@
                             @endif
                             @if (theme_option('hotline'))
                                 <p class="copyright"><i class="fas fa-phone-square"></i> 
-                                    +91 957 802 4024,
-                                    +91 914 557 9191
+                                    +91 7276756000,
+                                    +91 9578024024
                                     <!-- {{ theme_option('hotline') }} -->
                                 </p>
                             @endif
