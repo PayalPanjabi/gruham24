@@ -459,7 +459,7 @@ function openCity(evt, cityName) {
             
         </div>
         <div class="row justify-content-center">
-            <div class="col-lg-3 col-md-10 text-center" style="padding: 10px;">
+            <div class="col-lg-4 col-md-10 text-center" style="padding: 10px;">
                 <div class="" style="background:#fff;">
                 <div class="location-property-thumb">
                     <img src="/storage/nashik.jpg" data-src="http://127.0.0.1:8000/storage/c-2-400xauto-400xauto.png" alt="Hinjawadi" class="w-100 lazy entered loaded" data-ll-status="loaded" style="height: 203px;">
@@ -468,7 +468,7 @@ function openCity(evt, cityName) {
                    
                 </div>
             </div>
-            <div class="col-lg-3 col-md-10 text-center" style="padding: 10px;">
+            <div class="col-lg-4 col-md-10 text-center" style="padding: 10px;">
                 <div class="" style="background:#fff;">
                 
                     <div class="location-property-thumb">
@@ -478,7 +478,7 @@ function openCity(evt, cityName) {
                    
                 </div>
             </div>
-            <div class="col-lg-3 col-md-10 text-center" style="padding: 10px;">
+            <!-- <div class="col-lg-3 col-md-10 text-center" style="padding: 10px;">
                 <div class="" style="background:#fff;">
                     <div class="location-property-thumb">
                         <img src="/storage/nagar.gif" data-src="http://127.0.0.1:8000/storage/c-2-400xauto-400xauto.png" alt="Hinjawadi" class="w-100 lazy entered loaded" data-ll-status="loaded" style="height: 203px;">
@@ -486,8 +486,8 @@ function openCity(evt, cityName) {
                     <h2 style="color:#000;font-size: 20px;">Nagar</h2>
                    
                 </div>
-            </div>
-            <div class="col-lg-3 col-md-10 text-center" style="padding: 10px;">
+            </div> -->
+            <div class="col-lg-4 col-md-10 text-center" style="padding: 10px;">
                 <div class="" style="background:#fff;">
                     <div class="location-property-thumb">
                         <img src="/storage/bangalore.jpg" data-src="http://127.0.0.1:8000/storage/c-2-400xauto-400xauto.png" alt="Hinjawadi" class="w-100 lazy entered loaded" data-ll-status="loaded" style="height: 203px;">
