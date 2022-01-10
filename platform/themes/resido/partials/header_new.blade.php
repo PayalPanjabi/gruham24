@@ -161,16 +161,50 @@
                 transition: all 300ms ease-in-out;
             }
             .circle-before-icon:hover{
-                background-color: #f58220;
+                background-color: rgb(246, 200, 10);
                 border-color: #f58220;
                 width: 84px;
                  height: 84px;
-                border: solid 1px #979797;
+                border: solid 1px rgb(246, 200, 10);
                 border-radius: 50%;
                 text-align: center;
                 margin: 0 auto;
                 transition: all 300ms ease-in-out;
                 margin-top:-30px;
+            }
+            .circle-before-icon1{
+                width: 84px;
+                height: 84px;
+                margin-top: 332px;
+                border: solid 1px #979797;
+                border-radius: 50%;
+                background-color: transparent;
+                text-align: center;
+                margin: 0 auto;
+                transition: all 300ms ease-in-out;
+            }
+            .circle-before-icon1:hover{
+                background-color: rgb(246, 200, 10);
+                border-color: #f58220;
+                width: 84px;
+                 height: 84px;
+                border: solid 1px rgb(246, 200, 10);
+                border-radius: 50%;
+                text-align: center;
+                margin: 0 auto;
+                transition: all 300ms ease-in-out;
+                margin-top:-30px;}
+
+            .circle-before-icon2 {
+                width: 84px;
+                height: 84px;
+                margin-top: 332px;
+                border: solid 1px rgb(246, 200, 10);
+                border-radius: 50%;
+                background-color: rgb(246, 200, 10);
+                text-align: center;
+                margin: 0 auto;
+                transition: all 300ms ease-in-out;
             }
             /* tooltip */
             /* html, body {

@@ -119,7 +119,7 @@ style="background: url('storage/banners/home-property-image.png') no-repeat; hei
                 <div class="circle-before-icon" style=" ">
                         <i class="fa fa-building" aria-hidden="true" style="color: #fff;margin-top: 32px;font-size: 22px;"></i>
                         </div>
-                        <h3 style="font-size: 21px;color: #fff;">Search &<br> Shortlisting</h3>
+                        <h3 style="font-size: 21px;color: #fff;">Picking out &<br> Shortlisting</h3>
                         <div class="line"></div>
             </div>
             <div class="col-lg-2 col-md-12 text-center tablinks" onmouseover="openCity(event, 'box2')">
@@ -143,7 +143,7 @@ style="background: url('storage/banners/home-property-image.png') no-repeat; hei
             </div>
             
             <div class="col-lg-2 col-md-12 text-center tablinks" onmouseover="openCity(event, 'box5')">
-                    <div class="circle-before-icon" >
+                    <div class="circle-before-icon1" >
                         <i class="fa fa-key" aria-hidden="true" style="color: #fff;margin-top: 32px;font-size: 22px;"></i>
                     </div>
                     <h3 style="font-size: 21px;color: #fff;">Book Your<br> Unit Key</h3>
@@ -356,40 +356,69 @@ function openCity(evt, cityName) {
             </div>
         </div>
         <!-- <section class="customer-logos slider"> -->
-            <div class="" >
-                    <div class="circle-before-icon" style=" ">
+            <div class="" style="margin: 0px 20px;text-align: center;">
+                <div class="circle-before-icon2" style=" ">
                         <i class="fa fa-building" aria-hidden="true" style="color: #fff;margin-top: 32px;font-size: 22px;"></i>
                         </div>
                         <h3 style="text-align:center;font-size: 21px;color: #000;">Search & Shortlisting</h3>
                         <p style="text-align:center;font-size: 16px;color: #000;">Lacs of verified listings from 500+ reputed developers</p>
+                        <a href="#"  data-toggle="modal" data-target="#myModal" class="btn btn-theme-light-2 rounded" style="  padding: 9px 41px;
+                font-weight: bold;
+                background: #fff!important;
+                border: 2px solid #f6c80a!important;
+                color: #f6c80a!important;">With Us</a>
             </div>
-            <div class="" style="margin: 0px 20px;">
-                <div class="circle-before-icon" style="">
+            <br>
+            <div class="" style="margin: 0px 20px;text-align: center;">
+                <div class="circle-before-icon2" style="">
                             <i class="fa fa-users" aria-hidden="true" style="color: #fff;margin-top: 32px;font-size: 22px;"></i>
                     </div>
                     <h3 style="text-align:center;font-size: 21px;color: #000;">Face To Face</h3>
                     <p style="text-align:center;font-size: 16px;color: #000;">Get a 90% Property Details Clear  in FTF.</p> 
+                    <a href="#"  data-toggle="modal" data-target="#myModal" class="btn btn-theme-light-2 rounded" style="  padding: 9px 41px;
+                font-weight: bold;
+                background: #fff!important;
+                border: 2px solid #f6c80a!important;
+                color: #f6c80a!important;">With Us</a>
             </div>
-            <div class="" style="margin: 0px 20px;">
-                <div class="circle-before-icon">
+            <br>
+            <div class="" style="margin: 0px 20px;text-align: center;">
+                <div class="circle-before-icon2">
                             <i class="fa fa-car" aria-hidden="true" style="color: #fff;margin-top: 32px;font-size: 22px;"></i>
                 </div>
                 <h3 style="text-align:center;font-size: 21px;color: #000;">Site Visit</h3>
                 <p style="text-align:center;font-size: 16px;color: #000;">Guided site visits with our Area managers</p>
+                <a href="#"  data-toggle="modal" data-target="#myModal" class="btn btn-theme-light-2 rounded" style="  padding: 9px 41px;
+                font-weight: bold;
+                background: #fff!important;
+                border: 2px solid #f6c80a!important;
+                color: #f6c80a!important;">With Us</a>
             </div>
-            <div class="" style="margin: 0px 20px;">
-                    <div class="circle-before-icon" style="">
+            <br>
+            <div class="" style="margin: 0px 20px;text-align: center;">
+                    <div class="circle-before-icon2" style="">
                         <i class="fa fa-university" style="color: #fff;margin-top: 32px;font-size: 22px;"></i>
                     </div>
                     <h3 style="text-align:center;font-size: 21px;color: #000;">Home Loan Assistance</h3>
                     <p style="text-align:center;font-size: 16px;color: #000;">0% Procressing Fees.</p>
+                    <a href="#"  data-toggle="modal" data-target="#myModal1" class="btn btn-theme-light-2 rounded" style="  padding: 9px 41px;
+                font-weight: bold;
+                background: #fff!important;
+                border: 2px solid #f6c80a!important;
+                color: #f6c80a!important;">Apply Homeloan</a>
             </div>
-            <div class="" style="margin: 0px 20px;">
-                    <div class="circle-before-icon" >
+            <br>
+            <div class="" style="margin: 0px 20px;text-align: center;">
+                    <div class="circle-before-icon2" >
                         <i class="fa fa-key" aria-hidden="true" style="color: #fff;margin-top: 32px;font-size: 22px;"></i>
                     </div>
                     <h3 style="text-align:center;font-size: 21px;color: #000;">Book Your Unit Key</h3>
                     <p style="text-align:center;font-size: 16px;color: #000;">Committed guidance all the way till possession.</p>
+                     <a href="#"  data-toggle="modal" data-target="#myModal" class="btn btn-theme-light-2 rounded" style="  padding: 9px 41px;
+                font-weight: bold;
+                background: #fff!important;
+                border: 2px solid #f6c80a!important;
+                color: #f6c80a!important;">With Us</a>
             </div>
             
         <!-- </section> -->
@@ -414,6 +443,64 @@ function openCity(evt, cityName) {
         </div>
     </div>
 </section>
+
+
+<section class="pt-0" style="background:#5B5B5B;">
+    <div class="container">
+
+        <div class="row justify-content-center">
+            <div class="col-lg-7 col-md-10 text-center">
+                <div class="sec-heading center mb-4">
+                    <h2 style="color:#f6c80a;">We Are Coming With New City!!  </h2>
+                    <!-- <h1 class="black-lives-matter">We Are Coming With New City!!</h1> -->
+                   
+                </div>
+            </div>
+            
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-10 text-center" style="padding: 10px;">
+                <div class="" style="background:#fff;">
+                <div class="location-property-thumb">
+                    <img src="/storage/nashik.jpg" data-src="http://127.0.0.1:8000/storage/c-2-400xauto-400xauto.png" alt="Hinjawadi" class="w-100 lazy entered loaded" data-ll-status="loaded" style="height: 203px;">
+                </div>
+                <h2 style="color:#000;font-size: 20px;">Nashik  </h2>
+                   
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-10 text-center" style="padding: 10px;">
+                <div class="" style="background:#fff;">
+                
+                    <div class="location-property-thumb">
+                    <img src="/storage/nagpur.jpg" data-src="http://127.0.0.1:8000/storage/c-2-400xauto-400xauto.png" alt="Hinjawadi" class="w-100 lazy entered loaded" data-ll-status="loaded" style="height: 203px;">
+                    </div>
+                    <h2 style="color:#000; font-size: 20px;">Nagpur  </h2>
+                   
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-10 text-center" style="padding: 10px;">
+                <div class="" style="background:#fff;">
+                    <div class="location-property-thumb">
+                        <img src="/storage/nagar.gif" data-src="http://127.0.0.1:8000/storage/c-2-400xauto-400xauto.png" alt="Hinjawadi" class="w-100 lazy entered loaded" data-ll-status="loaded" style="height: 203px;">
+                    </div>
+                    <h2 style="color:#000;font-size: 20px;">Nagar</h2>
+                   
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-10 text-center" style="padding: 10px;">
+                <div class="" style="background:#fff;">
+                    <div class="location-property-thumb">
+                        <img src="/storage/bangalore.jpg" data-src="http://127.0.0.1:8000/storage/c-2-400xauto-400xauto.png" alt="Hinjawadi" class="w-100 lazy entered loaded" data-ll-status="loaded" style="height: 203px;">
+                    </div>
+                    <h2 style="color:#000;font-size: 20px;">Bangalore </h2>
+                   
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
 <section class="pt-0">
     <div class="container">
 
@@ -421,27 +508,44 @@ function openCity(evt, cityName) {
             <div class="col-lg-7 col-md-10 text-center">
                 <div class="sec-heading center mb-4">
                     <h2>Our  Partners </h2>
-                   
                 </div>
             </div>
         </div>
         <section class="customer-logos slider">
             <div class="slide" style="margin: 0px 20px;">
-                <img src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg" style="width: 100%;"></div>
+                <img src="/storage/users/duville-estates.png" style="width: 100%;margin-top:20px;"></div>
             <div class="slide" style="margin: 0px 20px;">
-                <img src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg" style="width: 100%;"></div>
+                <img src="/storage/users/godrej-properties.png" style="width: 100%;"></div>
             <div class="slide" style="margin: 0px 20px;">
-                <img src="https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg" style="width: 100%;"></div>
+                <img src="/storage/users/goel-genga-developments.png" style="width: 100%;margin-top:20px;"></div>
             <div class="slide" style="margin: 0px 20px;">
-                <img src="https://image.freepik.com/free-vector/colors-curl-logo-template_23-2147536125.jpg" style="width: 100%;"></div>
+                <img src="/storage/users/majestique-landmarks.png" style="width: 100%;"></div>
             <div class="slide" style="margin: 0px 20px;">
-                <img src="https://image.freepik.com/free-vector/abstract-cross-logo_23-2147536124.jpg" style="width: 100%;"></div>
+                <img src="/storage/users/mantra-properties.png" style="width: 100%;"></div>
             <div class="slide" style="margin: 0px 20px;">
-                <img src="https://image.freepik.com/free-vector/football-logo-background_1195-244.jpg" style="width: 100%;"></div>
+                <img src="/storage/users/shapoorji-palonji.png" style="width: 100%;"></div>
             <div class="slide" style="margin: 0px 20px;">
-                <img src="https://image.freepik.com/free-vector/background-of-spots-halftone_1035-3847.jpg" style="width: 100%;"></div>
+                <img src="/storage/users/vtp.png" style="width: 100%;height:30%;">
+            </div>
             <div class="slide" style="margin: 0px 20px;">
-                <img src="https://image.freepik.com/free-vector/retro-label-on-rustic-background_82147503374.jpg" style="width: 100%;"></div>
+                <img src="/storage/users/parsun-sarvam.png" style="width: 100%;height:30%;">
+            </div>
+            <div class="slide" style="margin: 0px 20px;">
+                <img src="/storage/users/rohan-abhilasha.png" style="width: 100%;height:30%;">
+            </div>
+            <div class="slide" style="margin: 0px 20px;">
+                <img src="/storage/users/unique-properties.png" style="width: 100%;height:30%;">
+            </div>
+            <div class="slide" style="margin: 0px 20px;">
+                <img src="/storage/users/sukhmani-properties.png" style="width: 100%;height:30%;">
+            </div>
+             <!-- <div class="slide" style="margin: 0px 20px;">
+                <img src="/storage/users/brahma-crop.png" style="width: 100%;height:10%;">
+            </div> -->
+            <div class="slide" style="margin: 0px 20px;">
+                <img src="/storage/users/mahalaxmi-group.png" style="width: 100%;height:30%;">
+            </div>
+
         </section>
     </div>
 </section>
@@ -535,4 +639,5 @@ function openCity(evt, cityName) {
             </center>
         </div>
     </div>
+    
 </section>

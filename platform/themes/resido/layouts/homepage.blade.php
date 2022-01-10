@@ -5,6 +5,8 @@
     @else
 
 {!! Theme::partial('header_new') !!}
+{!! Theme::partial('landingpage') !!}
+
 
 @endif
 

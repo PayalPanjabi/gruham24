@@ -8,11 +8,12 @@ style="background:url('storage/banners/banner-9.png') no-repeat;
         
         <h1 class="big-header-capt mb-0">Properties to buy in Pune</h1>
         <p class="text-center mb-5">{!! clean($description) !!}</p>
-        <div style="text-align: center;
+        <br><br><br>
+        <!-- <div style="text-align: center;
         margin: 20px;"> <a href="#" style="border: 1px solid #fff;
                         color: #fff;font-size: 12px;padding: 12px 19px;width: 200px;text-align: center;margin-top: 20px;border-radius: 26px;">
                     
-                  Discover Commercial Projects</a></div>
+                  Discover Commercial Projects</a></div> -->
         <div class="simple-search-wrap">
             <div class="hero-search-2">
                 <!-- <p class="lead-i text-light">{!! clean($title) !!}</p>
