@@ -198,8 +198,7 @@ class Core
             'verify_type'  => $this->verifyType,
         ];
 
-        //$response = $this->callApi($this->apiUrl . '/api/activate_license', $data);
-        $response = array('status'  => true,'message' => 'Verified! Thanks for purchasing our product.', 'lic_response' => 'Valid');
+        $response = $this->callApi($this->apiUrl . '/api/activate_license', $data);
 
         if (!empty($createLicense)) {
             if ($response['status']) {
@@ -224,7 +223,6 @@ class Core
      */
     public function verifyLicense($timeBasedCheck = false, $license = false, $client = false)
     {
-		return array('status'  => true,'message' => 'Verified! Thanks for purchasing our product.', 'lic_response' => 'Valid');
         $data = [
             'product_id'   => $this->productId,
             'license_file' => null,
