@@ -1,4 +1,4 @@
-<section>
+<!-- <section>
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-7 col-md-10 text-center">
@@ -13,4 +13,4 @@
             <property-component type="recently-viewed-properties" url="{{ route('public.ajax.properties') }}"></property-component>
         </div>
     </div>
-</section>
+</section> -->

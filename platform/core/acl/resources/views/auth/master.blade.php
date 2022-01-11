@@ -13,7 +13,8 @@
                         <div class="logo-title-container">
                             <div class="copy animated fadeIn">
                                 <h1>{{ setting('admin_title', config('core.base.general.base_name')) }}</h1>
-                                <p>{!! clean(trans('core/base::layouts.copyright', ['year' => now()->format('Y'), 'company' => setting('admin_title', config('core.base.general.base_name')), 'version' => get_cms_version()])) !!}</p>
+                                <p>Copyright 2022 © Gruham24, develop by Codexxa.</p>   
+                                <!-- <p>{!! clean(trans('core/base::layouts.copyright', ['year' => now()->format('Y'), 'company' => setting('admin_title', config('core.base.general.base_name')), 'version' => get_cms_version()])) !!}</p> -->
                             </div>
                         </div> <!-- .logo-title-container -->
                     </div>
