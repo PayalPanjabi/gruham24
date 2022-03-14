@@ -1,3 +1,55 @@
+  
+  <style>
+      * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      font-family: "Nunito", sans-serif;
+      background: #fbf7f4;
+    }
+    
+    .container {
+      width: 80%;
+      margin: auto;
+    }
+    
+    .heading {
+      text-align: center;
+      font-size: 3.5rem;
+      font-weight: bold;
+      padding: 5rem 0;
+    }
+    
+    .counter-container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    
+    .counter {
+      text-align: center;
+    }
+    
+    .counter h3 {
+      padding: 0.5rem 0;
+      font-size: 2.5rem;
+      font-weight: 800;
+    }
+    
+    .counter h6 {
+      font-size: 2rem;
+      padding-bottom: 1rem;
+    }
+    
+    .icon {
+      height: 5rem;
+      width: auto;
+    }
+
+  </style>
 <div class="image-cover hero-banner"
     style="background:url('storage/banners/banner-9.png') no-repeat;   
       margin-top: -90px;z-index: -1;">
@@ -26,52 +78,78 @@
         margin: 20px;"> <a href="#" style="border: 1px solid #fff;
                         color: #fff;font-size: 12px;padding: 12px 19px;width: 200px;text-align: center;margin-top: 20px;border-radius: 26px;">
                     
-                  Discover Commercial Projects</a></div>
-        <div class="row">
-        <!-- <div class="col-lg-1"></div> -->
-            <div class="col-lg-3 col-xs-6">
-                <div class="achievement-wrap">
-                    <div class="achievement-content">
-                        <h4>20500+</h4>
-                        <p>CITIES</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-2 col-xs-6">
-                <div class="achievement-wrap">
-                    <div class="achievement-content">
-                        <h4>7600+</h4>
-                        <p>PROJECTS</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-2 col-xs-6">
-                <div class="achievement-wrap">
-                    <div class="achievement-content">
-                        <h4>12300+</h4>
-                        <p>DEVELOPERS</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-2 col-xs-6">
-                <div class="achievement-wrap">
-                    <div class="achievement-content">
-                        <h4>15200+</h4>
-                        <p>CUSTOMERS</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-xs-6">
-                <div class="achievement-wrap">
-                    <div class="achievement-content">
-                        <h4>15200+</h4>
-                        <p>WORTH PROPERTY SOLD</p>
-                    </div>
-                </div>
-            </div>
-            <!-- <div class="col-lg-1"></div> -->
+                  Discover Commercial Projects</a>
         </div>
-    </div>
+        
+        <div class="container">
+            <div class="heading">
+              Counting Upto the Limit
+            </div>
+            <div class="counter-container">
+              <div class="counter">
+                <img src="https://raw.githubusercontent.com/nemo0/animated-counter/29e12c0cb15e90c27faaef0d83fb2618126067db/icons/iconmonstr-time-19.svg" alt="timer" srcset="" class="icon">
+                <h3 data-target="15000" class="count">0</h3>
+                <h6>Work Hours</h6>
+              </div>
+              <div class="counter">
+                <img src="https://raw.githubusercontent.com/nemo0/animated-counter/29e12c0cb15e90c27faaef0d83fb2618126067db/icons/iconmonstr-coffee-11.svg" alt="Coffee" srcset="" class="icon">
+                <h3 data-target="1200" class="count">0</h3>
+                <h6>Cups of Coffee</h6>
+              </div>
+              <div class="counter">
+                <img src="https://raw.githubusercontent.com/nemo0/animated-counter/29e12c0cb15e90c27faaef0d83fb2618126067db/icons/iconmonstr-weather-112.svg" alt="night" srcset="" class="icon">
+                <h3 data-target="500" class="count">0</h3>
+                <h6>Sleepless Nights</h6>
+              </div>
+            </div>
+         </div>
+       
+    <!--    <div class="row">-->
+        <!-- <div class="col-lg-1"></div> -->
+    <!--        <div class="col-lg-3 col-xs-6">-->
+    <!--            <div class="achievement-wrap">-->
+    <!--                <div class="achievement-content">-->
+    <!--                    <h4>20500+</h4>-->
+    <!--                    <p>CITIES</p>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--        <div class="col-lg-2 col-xs-6">-->
+    <!--            <div class="achievement-wrap">-->
+    <!--                <div class="achievement-content">-->
+    <!--                    <h4>7600+</h4>-->
+    <!--                    <p>PROJECTS</p>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--        <div class="col-lg-2 col-xs-6">-->
+    <!--            <div class="achievement-wrap">-->
+    <!--                <div class="achievement-content">-->
+    <!--                    <h4>12300+</h4>-->
+    <!--                    <p>DEVELOPERS</p>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--        <div class="col-lg-2 col-xs-6">-->
+    <!--            <div class="achievement-wrap">-->
+    <!--                <div class="achievement-content">-->
+    <!--                    <h4>15200+</h4>-->
+    <!--                    <p>CUSTOMERS</p>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--        <div class="col-lg-3 col-xs-6">-->
+    <!--            <div class="achievement-wrap">-->
+    <!--                <div class="achievement-content">-->
+    <!--                    <h4>15200+</h4>-->
+    <!--                    <p>WORTH PROPERTY SOLD</p>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--    </div>-->
+    <!--</div>-->
+    
+    
     <!-- <div class="container">
         <div class="hero-search-wrap" >
             <div class="hero-search">
@@ -138,3 +216,25 @@
         </div>
     </div> -->
 </div>
+  <script>
+      const counters = document.querySelectorAll(".count");
+const speed = 200;
+
+counters.forEach((counter) => {
+  const updateCount = () => {
+    const target = parseInt(+counter.getAttribute("data-target"));
+    const count = parseInt(+counter.innerText);
+    const increment = Math.trunc(target / speed);
+    console.log(increment);
+
+    if (count < target) {
+      counter.innerText = count + increment;
+      setTimeout(updateCount, 1);
+    } else {
+      count.innerText = target;
+    }
+  };
+  updateCount();
+});
+
+  </script>

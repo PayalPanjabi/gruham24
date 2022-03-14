@@ -13,9 +13,11 @@
                     <div>
                         <a href="{{ $property->url }}">
                             @if($is_lazyload)
-                            <img src="storage/properties/p-1.jpg"
-                                data-src="storage/properties/p-1.jpg"
+                            <img src="{{ RvMedia::getImageUrl($image, 'property_large', false, RvMedia::getDefaultImage()) }}"
+                                data-src="{{ RvMedia::getImageUrl($image, 'property_large', false, RvMedia::getDefaultImage()) }}"
                                 class="img-fluid mx-auto lazy" alt="{{ $property->name }}"/>
+                          
+                     
                             @else
                             <img src="storage/properties/p-2-autox610.jpg"
                                 class="img-fluid mx-auto" alt="{{ $property->name }}"/>
@@ -49,26 +51,52 @@
     </div>
 
     <div class="price-features-wrapper">
-        <div class="list-fx-features">
+        <!-- <div class="list-fx-features">
             <div class="listing-card-info-icon">
                 <div class="inc-fleat-icon">
                     <img src="{{ Theme::asset()->url('img/bed.svg') }}" width="13" alt=""/>
                 </div>
-                {!! clean($property->number_bedroom) !!} {!! __('Beds') !!}
+                {!! clean($property->one_bhk_flat) !!} {!! __('BHK') !!}
             </div>
             <div class="listing-card-info-icon">
                 <div class="inc-fleat-icon">
                     <img src="{{ Theme::asset()->url('img/bathtub.svg') }}" width="13"
                          alt=""/>
                 </div>
-                {!! clean($property->number_bathroom) !!} {!! __('Bath') !!}
+                {!! clean($property->two_bhk_flat) !!} {!! __('BHK') !!}
             </div>
             <div class="listing-card-info-icon">
                 <div class="inc-fleat-icon">
                     <img src="{{ Theme::asset()->url('img/move.svg') }}" width="13" alt=""/>
                 </div>
-                {{ $property->square_text }}
+                {!! clean($property->three_bhk_flat) !!} {!! __('BHK') !!}
             </div>
+        </div> -->
+        <div class="list-fx-features">
+            @if ($property->one_bhk_flat)
+            <div class="listing-card-info-icon">
+                <div class="inc-fleat-icon"><img src="{{ Theme::asset()->url('img/move.svg') }}" width="13" alt=""></div>
+                {{ number_format($property->one_bhk_flat) }} {{ __('BHK') }}
+            </div>
+            @endif
+            @if ($property->two_bhk_flat)
+            <div class="listing-card-info-icon">
+                <div class="inc-fleat-icon"><img src="{{ Theme::asset()->url('img/move.svg') }}" width="13" alt="">
+                </div>{{ number_format($property->two_bhk_flat) }} {{ __('BHK') }}
+            </div>
+            @endif
+            @if ($property->three_bhk_flat)
+            <div class="listing-card-info-icon">
+                <div class="inc-fleat-icon"><img src="{{ Theme::asset()->url('img/move.svg') }}" width="13" alt=""></div>
+                {{ number_format($property->three_bhk_flat) }} {{ __('BHK') }}
+            </div>
+            @endif
+          	@if ($property->four_bhk_flat)
+            <div class="listing-card-info-icon">
+                <div class="inc-fleat-icon"><img src="{{ Theme::asset()->url('img/move.svg') }}" width="13" alt=""></div>
+                {{ number_format($property->four_bhk_flat) }} {{ __('BHK') }}
+            </div>
+            @endif
         </div>
     </div>
 

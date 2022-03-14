@@ -306,9 +306,7 @@ function hideHover(e){
             else document.getElementById('ac-wrapper').removeAttribute('style');
         }
         window.onload = function () {
-            setTimeout(function () {
-                PopUp('show');
-            }, 5000);
+            
         }
     </script>
     <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
@@ -428,7 +426,7 @@ function hideHover(e){
                     
                     <div class="nav-toggle"></div>
                 </div>
-                <ul class="nav-menu lg-device" style="margin-left: 550px;">
+                <ul class="nav-menu lg-device" style="margin-left: 650px;">
 
                     <li class="menu-item-has-children" >
                     <a href="tel:+91 9578024024" style="border: 1px solid #fff;
@@ -445,12 +443,12 @@ function hideHover(e){
                     <a href="{{ route('public.wishlist') }}" style="color:#fff;"><i class="fas fa-heart"></i> Favourites (<span class="wishlist-count">0</span>)</a>
                     </li>
 
-                    <li class="menu-item-has-children" style="color:#e2b52d;">
-                    <a href="{{ route('public.account.login') }}" style="color:#fff;">
-                    <i class="fa fa-user" style="font-size: 14px;"></i>
+                    <!--<li class="menu-item-has-children" style="color:#e2b52d;">-->
+                    <!--<a href="{{ route('public.account.login') }}" style="color:#fff;">-->
+                    <!--<i class="fa fa-user" style="font-size: 14px;"></i>-->
                     <!-- <img src="{{ Theme::asset()->url('') }}/img/user-light.svg" width="12" alt="" class="mr-2" style="color:#e2b52d;"/> -->
-                    Login</a>
-                    </li>
+                    <!--Login</a>-->
+                    <!--</li>-->
                 </ul>
                 
                 

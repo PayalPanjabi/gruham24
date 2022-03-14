@@ -15,7 +15,7 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Support\Arr;
 use RvMedia;
 use Illuminate\Support\Str;
-
+ 
 class Property extends BaseModel
 {
     use EnumCastable;
@@ -37,11 +37,7 @@ class Property extends BaseModel
         'content',
         'location',
         'images',
-        'number_bedroom',
-        'number_bathroom',
-        'number_floor',
-        'square',
-        'price',
+        
         'is_featured',
         'currency_id',
         'city_id',
@@ -53,7 +49,41 @@ class Property extends BaseModel
         'auto_renew',
         'latitude',
         'longitude',
-        'type_id'
+        'type_id',
+
+        // new tab
+        'one_bhk_flat',
+        'two_bhk_flat',
+        'three_bhk_flat',
+      	'four_bhk_flat',
+      
+        // 1bhk
+        'number_bedroom',
+        'number_bathroom',
+        'number_floor',
+        'square',
+        'price',
+
+        // 2bhk
+        'two_bedroom',
+        'two_bathroom',
+        'two_floor',
+        'two_bhk_square',
+        'two_bhk_price',
+
+        // 3bhk
+        'three_bedroom',
+        'three_bathroom',
+        'three_floor',
+        'three_bhk_square',
+        'three_bhk_price',
+      
+       // 4bhk
+        'four_bedroom',
+        'four_bathroom',
+        'four_floor',
+        'four_bhk_square',
+        'four_bhk_price'
     ];
 
     /**

@@ -17,7 +17,7 @@ use Botble\RealEstate\Repositories\Interfaces\FacilityInterface;
 use Botble\RealEstate\Repositories\Interfaces\FeatureInterface;
 use Botble\RealEstate\Repositories\Interfaces\PropertyInterface;
 use Botble\RealEstate\Repositories\Interfaces\TypeInterface;
-use RealEstateHelper;
+use RealEstateHelper; 
 use Throwable;
 
 class PropertyForm extends FormAbstract
@@ -238,6 +238,16 @@ class PropertyForm extends FormAbstract
             ->add('rowOpen1', 'html', [
                 'html' => '<div class="row">',
             ])
+            ->add('one_bhk_flat', 'number', [
+                'label'      => trans('plugins/real-estate::property.form.one_bhk_flat'),
+                'label_attr' => ['class' => 'control-label'],
+                'wrapper'    => [
+                    'class' => 'form-group mb-3 col-md-3',
+                ],
+                'attr'       => [
+                    'placeholder' => trans('plugins/real-estate::property.form.one_bhk_flat'),
+                ],
+            ])
             ->add('number_bedroom', 'number', [
                 'label'      => trans('plugins/real-estate::property.form.number_bedroom'),
                 'label_attr' => ['class' => 'control-label'],
@@ -278,12 +288,16 @@ class PropertyForm extends FormAbstract
                     'placeholder' => trans('plugins/real-estate::property.form.square'),
                 ],
             ])
-            ->add('rowClose1', 'html', [
-                'html' => '</div>',
-            ])
-            ->add('rowOpen2', 'html', [
-                'html' => '<div class="row">',
-            ])
+              // ->add('price', 'number', [
+            //     'label'      => trans('plugins/real-estate::property.form.price'),
+            //     'label_attr' => ['class' => 'control-label'],
+            //     'wrapper'    => [
+            //         'class' => 'form-group mb-3 col-md-3',
+            //     ],
+            //     'attr'       => [
+            //         'placeholder' => trans('plugins/real-estate::property.form.price'),
+            //     ],
+            // ])
             ->add('price', 'text', [
                 'label'      => trans('plugins/real-estate::property.form.price'),
                 'label_attr' => ['class' => 'control-label'],
@@ -291,11 +305,221 @@ class PropertyForm extends FormAbstract
                     'class' => 'form-group mb-3 col-md-4',
                 ],
                 'attr'       => [
-                    'id'          => 'price-number',
+                    // 'id'          => 'price-number',
                     'placeholder' => trans('plugins/real-estate::property.form.price'),
-                    'class'       => 'form-control input-mask-number',
+                    'class'       => 'form-control input-mask-text',
                 ],
             ])
+            ->add('rowClose1', 'html', [
+                'html' => '</div>',
+            ])
+            ->add('rowOpen2', 'html', [
+                'html' => '<div class="row">',
+            ])
+            
+                
+            // 2bhk
+            ->add('two_bhk_flat', 'number', [
+                'label'      => trans('plugins/real-estate::property.form.two_bhk_flat'),
+                'label_attr' => ['class' => 'control-label'],
+                'wrapper'    => [
+                    'class' => 'form-group mb-3 col-md-3',
+                ],
+                'attr'       => [
+                    'placeholder' => trans('plugins/real-estate::property.form.two_bhk_flat'),
+                ],
+            ])
+            ->add('two_bedroom', 'number', [
+                'label'      => trans('plugins/real-estate::property.form.two_bedroom'),
+                'label_attr' => ['class' => 'control-label'],
+                'wrapper'    => [
+                    'class' => 'form-group mb-3 col-md-3',
+                ],
+                'attr'       => [
+                    'placeholder' => trans('plugins/real-estate::property.form.two_bedroom'),
+                ],
+            ])
+            ->add('two_bathroom', 'number', [
+                'label'      => trans('plugins/real-estate::property.form.two_bathroom'),
+                'label_attr' => ['class' => 'control-label'],
+                'wrapper'    => [
+                    'class' => 'form-group mb-3 col-md-3',
+                ],
+                'attr'       => [
+                    'placeholder' => trans('plugins/real-estate::property.form.two_bathroom'),
+                ],
+            ])
+            ->add('two_floor', 'number', [
+                'label'      => trans('plugins/real-estate::property.form.two_floor'),
+                'label_attr' => ['class' => 'control-label'],
+                'wrapper'    => [
+                    'class' => 'form-group mb-3 col-md-3',
+                ],
+                'attr'       => [
+                    'placeholder' => trans('plugins/real-estate::property.form.two_floor'),
+                ],
+            ])
+            ->add('two_bhk_square', 'number', [
+                'label'      => trans('plugins/real-estate::property.form.two_bhk_square', ['unit' => setting('real_estate_square_unit', 'm²') ? '(' . setting('real_estate_square_unit', 'm²') . ')' : null]),
+                'label_attr' => ['class' => 'control-label'],
+                'wrapper'    => [
+                    'class' => 'form-group mb-3 col-md-3',
+                ],
+                'attr'       => [
+                    'placeholder' => trans('plugins/real-estate::property.form.two_bhk_square'),
+                ],
+            ])
+          
+            ->add('two_bhk_price', 'text', [
+                'label'      => trans('plugins/real-estate::property.form.two_bhk_price'),
+                'label_attr' => ['class' => 'control-label'],
+                'wrapper'    => [
+                    'class' => 'form-group mb-3 col-md-4',
+                ],
+                'attr'       => [
+                    // 'id'          => 'price-number',
+                    'placeholder' => trans('plugins/real-estate::property.form.two_bhk_price'),
+                    'class'       => 'form-control input-mask-text',
+                ],
+            ])
+
+            // ->add('rowClose2', 'html', [
+            //     'html' => '</div>',
+            // ])
+            // ->add('rowOpen2', 'html', [
+            //     'html' => '<div class="row">',
+            // ])
+            
+             // 3bhk
+             ->add('three_bhk_flat', 'number', [
+                'label'      => trans('plugins/real-estate::property.form.three_bhk_flat'),
+                'label_attr' => ['class' => 'control-label'],
+                'wrapper'    => [
+                    'class' => 'form-group mb-3 col-md-3',
+                ],
+                'attr'       => [
+                    'placeholder' => trans('plugins/real-estate::property.form.three_bhk_flat'),
+                ],
+            ])
+            ->add('three_bedroom', 'number', [
+                'label'      => trans('plugins/real-estate::property.form.three_bedroom'),
+                'label_attr' => ['class' => 'control-label'],
+                'wrapper'    => [
+                    'class' => 'form-group mb-3 col-md-3',
+                ],
+                'attr'       => [
+                    'placeholder' => trans('plugins/real-estate::property.form.three_bedroom'),
+                ],
+            ])
+            ->add('three_bathroom', 'number', [
+                'label'      => trans('plugins/real-estate::property.form.three_bathroom'),
+                'label_attr' => ['class' => 'control-label'],
+                'wrapper'    => [
+                    'class' => 'form-group mb-3 col-md-3',
+                ],
+                'attr'       => [
+                    'placeholder' => trans('plugins/real-estate::property.form.three_bathroom'),
+                ],
+            ])
+            ->add('three_floor', 'number', [
+                'label'      => trans('plugins/real-estate::property.form.three_floor'),
+                'label_attr' => ['class' => 'control-label'],
+                'wrapper'    => [
+                    'class' => 'form-group mb-3 col-md-3',
+                ],
+                'attr'       => [
+                    'placeholder' => trans('plugins/real-estate::property.form.three_floor'),
+                ],
+            ])
+            ->add('three_bhk_square', 'number', [
+                'label'      => trans('plugins/real-estate::property.form.three_bhk_square', ['unit' => setting('real_estate_square_unit', 'm²') ? '(' . setting('real_estate_square_unit', 'm²') . ')' : null]),
+                'label_attr' => ['class' => 'control-label'],
+                'wrapper'    => [
+                    'class' => 'form-group mb-3 col-md-3',
+                ],
+                'attr'       => [
+                    'placeholder' => trans('plugins/real-estate::property.form.three_bhk_square'),
+                ],
+            ])
+          
+            ->add('three_bhk_price', 'text', [
+                'label'      => trans('plugins/real-estate::property.form.three_bhk_price'),
+                'label_attr' => ['class' => 'control-label'],
+                'wrapper'    => [
+                    'class' => 'form-group mb-3 col-md-4',
+                ],
+                'attr'       => [
+                    // 'id'          => 'price-number',
+                    'placeholder' => trans('plugins/real-estate::property.form.three_bhk_price'),
+                    'class'       => 'form-control input-mask-text',
+                ],
+            ])
+
+            // 4bhk
+            ->add('four_bhk_flat', 'number', [
+                'label'      => trans('plugins/real-estate::property.form.four_bhk_flat'),
+                'label_attr' => ['class' => 'control-label'],
+                'wrapper'    => [
+                    'class' => 'form-group mb-3 col-md-3',
+                ],
+                'attr'       => [
+                    'placeholder' => trans('plugins/real-estate::property.form.four_bhk_flat'),
+                ],
+            ])
+            ->add('four_bedroom', 'number', [
+                'label'      => trans('plugins/real-estate::property.form.four_bedroom'),
+                'label_attr' => ['class' => 'control-label'],
+                'wrapper'    => [
+                    'class' => 'form-group mb-3 col-md-3',
+                ],
+                'attr'       => [
+                    'placeholder' => trans('plugins/real-estate::property.form.four_bedroom'),
+                ],
+            ])
+            ->add('four_bathroom', 'number', [
+                'label'      => trans('plugins/real-estate::property.form.four_bathroom'),
+                'label_attr' => ['class' => 'control-label'],
+                'wrapper'    => [
+                    'class' => 'form-group mb-3 col-md-3',
+                ],
+                'attr'       => [
+                    'placeholder' => trans('plugins/real-estate::property.form.four_bathroom'),
+                ],
+            ])
+            ->add('four_floor', 'number', [
+                'label'      => trans('plugins/real-estate::property.form.four_floor'),
+                'label_attr' => ['class' => 'control-label'],
+                'wrapper'    => [
+                    'class' => 'form-group mb-3 col-md-3',
+                ],
+                'attr'       => [
+                    'placeholder' => trans('plugins/real-estate::property.form.four_floor'),
+                ],
+            ])
+            ->add('four_bhk_square', 'number', [
+                'label'      => trans('plugins/real-estate::property.form.four_bhk_square', ['unit' => setting('real_estate_square_unit', 'm²') ? '(' . setting('real_estate_square_unit', 'm²') . ')' : null]),
+                'label_attr' => ['class' => 'control-label'],
+                'wrapper'    => [
+                    'class' => 'form-group mb-3 col-md-3',
+                ],
+                'attr'       => [
+                    'placeholder' => trans('plugins/real-estate::property.form.four_bhk_square'),
+                ],
+            ])
+          
+            ->add('four_bhk_price', 'text', [
+                'label'      => trans('plugins/real-estate::property.form.four_bhk_price'),
+                'label_attr' => ['class' => 'control-label'],
+                'wrapper'    => [
+                    'class' => 'form-group mb-3 col-md-4',
+                ],
+                'attr'       => [
+                    // 'id'          => 'price-number',
+                    'placeholder' => trans('plugins/real-estate::property.form.four_bhk_price'),
+                    'class'       => 'form-control input-mask-text',
+                ],
+            ])
+
             ->add('currency_id', 'customSelect', [
                 'label'      => trans('plugins/real-estate::property.form.currency'),
                 'label_attr' => ['class' => 'control-label'],
@@ -318,6 +542,7 @@ class PropertyForm extends FormAbstract
                 ],
                 'choices'    => PropertyPeriodEnum::labels(),
             ])
+
             ->add('rowClose2', 'html', [
                 'html' => '</div>',
             ])

@@ -11,11 +11,37 @@ return [
         'type'             => 'Type',
         'images'           => 'Images',
         'location'         => 'Property location',
+
         'number_bedroom'   => 'Number bedrooms',
         'number_bathroom'  => 'Number bathrooms',
         'number_floor'     => 'Number floors',
         'square'           => 'Square :unit',
         'price'            => 'Price',
+
+        'one_bhk_flat' => '1 BHK Flat',
+        'two_bhk_flat' => '2 BHK Flat',
+        'three_bhk_flat' => '3 BHK Flat',
+      'four_bhk_flat' => '4 BHK Flat',
+
+        'two_bedroom' => 'Number bedrooms',
+        'two_bathroom' => 'Number bathrooms',
+        'two_floor' => 'Number floors',
+        'two_bhk_square'  => 'Square :unit',
+        'two_bhk_price' => 'Price',
+
+        'three_bedroom'  => 'Number bedrooms',
+        'three_bathroom' => 'Number bathrooms',
+        'three_floor'  => 'Number floors',
+        'three_bhk_square'  => 'Square :unit',
+        'three_bhk_price' => 'Price',
+         // 4bhk
+         'four_bedroom' => 'Number bedrooms',
+         'four_bathroom' => 'Number bathrooms',
+         'four_floor' => 'Number floors',
+         'four_bhk_square' => 'Square :unit',
+         'four_bhk_price'  => 'Price',
+
+
         'features'         => 'Features',
         'date'             => 'Date information',
         'currency'         => 'Currency',
@@ -31,7 +57,7 @@ return [
         'not_available' => 'Not available',
         'pre_sale'      => 'Preparing selling',
         'selling'       => 'Selling',
-        'sold'          => 'Sold',
+        'sold'          => 'Sold', 
         'renting'       => 'Renting',
         'rented'        => 'Rented',
         'building'      => 'Building',

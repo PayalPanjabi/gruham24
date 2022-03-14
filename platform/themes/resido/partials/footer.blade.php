@@ -5,42 +5,46 @@
     <div class="py-5">
         <div class="container">
             <div class="row">
+            
                 <div class="col-lg-3 col-md-4 copyright">
-                    <h3 style="color:#fff;font-size:14px;">Property in Top Country</h3>
+                    <h3 style="color:#fff;font-size:14px;">Property in Pune</h3>
                     <ul style="list-style: none;margin-left: 0;padding-left: 0;">
-                        <li style="margin-bottom: 7px;"><a href="" style="font-size:12px;">Property in India</a></li>
-                        <li style="margin-bottom: 7px;"><a href="" style="font-size:12px;">Residential Property in India</a></li>
-                        <li style="margin-bottom: 7px;"><a href="" style="font-size:12px;">Commercial Property in India</a></li>
+                        <li style="margin-bottom: 7px;"><a href="http://vp24.in/city/kharadi-2" style="font-size:12px;">Property in Kharadi</a></li>
+                        <li style="margin-bottom: 7px;"><a href="" style="font-size:12px;">Property in Hinjawadi</a></li>
+                        <li style="margin-bottom: 7px;"><a href="" style="font-size:12px;">Property in Balewadi</a></li>
+                        <li style="margin-bottom: 7px;"><a href="" style="font-size:12px;">Property in Baner</a></li>
+
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-4 copyright">
-                    <h3 style="color:#fff;font-size:14px;">Property in Top State</h3>
+                    <h3 style="color:#fff;font-size:14px;">Property in Pune</h3>
                     <ul style="list-style: none;margin-left: 0;padding-left: 0;">
-                        <li style="margin-bottom: 7px;"><a href="" style="font-size:12px;">Property in Haryana</a></li>
-                        <li style="margin-bottom: 7px;"><a href="" style="font-size:12px;">Property in Maharashtra</a></li>
-                        <li style="margin-bottom: 7px;"><a href="" style="font-size:12px;">Property in Uttar Pradesh</a></li>
-                        
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-4 copyright">
-                    <h3 style="color:#fff;font-size:14px;">Property in Top City</h3>
-                    <ul style="list-style: none;margin-left: 0;padding-left: 0;">
-                        <li style="margin-bottom: 7px;"><a href="" style="font-size:12px;">Property in Gurgaon</a></li>
-                        <li style="margin-bottom: 7px;"><a href="" style="font-size:12px;">Property in Pune</a></li>
-                        <li style="margin-bottom: 7px;"><a href="" style="font-size:12px;">Property in Noida</a></li>
-                        
+                        <li style="margin-bottom: 7px;"><a href="" style="font-size:12px;">Property in Viman Nagar</a></li>
+                        <li style="margin-bottom: 7px;"><a href="http://vp24.in/city/ha-noi" style="font-size:12px;">Property in koregaon Park</a></li>
+                        <li style="margin-bottom: 7px;"><a href="" style="font-size:12px;">Property in undri</a></li>
+                        <li style="margin-bottom: 7px;"><a href="" style="font-size:12px;">Property in Dhanori</a></li>
+
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-4 copyright" >
-                    <h3 style="color:#fff;font-size:14px;">Property in Popular Localities</h3>
+                    <h3 style="color:#fff;font-size:14px;">Property in Pune</h3>
                     <ul style="list-style: none;margin-left: 0;padding-left: 0;">
-                        <li style="margin-bottom: 7px;"><a href="" style="font-size:12px;">Property in NH 8 Gurgaon</a></li>
-                        <li style="margin-bottom: 7px;"><a href="" style="font-size:12px;">Property in Hinjewadi Pune</a></li>
-                        <li style="margin-bottom: 7px;"><a href="" style="font-size:12px;">Property in NH24 Ghaziabad</a></li>
-                        
+                        <li style="margin-bottom: 7px;"><a href="http://vp24.in/city/hadapsar-1" style="font-size:12px;">Property in Hadpsar</a></li>
+                        <li style="margin-bottom: 7px;"><a href="http://vp24.in/city/keshav-nagar" style="font-size:12px;">Property in Keshav Nagar</a></li>
+                        <li style="margin-bottom: 7px;"><a href="http://vp24.in/city/wagholi" style="font-size:12px;">Property in Wagholi</a></li>
+                         <li style="margin-bottom: 7px;"><a href="http://vp24.in/city/kharadi-1" style="font-size:12px;">Property in BT Kawade Road</a></li>
+
                     </ul>
                 </div>
-
+    <div class="col-lg-3 col-md-4 copyright">
+                    <h3 style="color:#fff;font-size:14px;">Property in India</h3>
+                    <ul style="list-style: none;margin-left: 0;padding-left: 0;">
+                        <li style="margin-bottom: 7px;"><a href="" style="font-size:12px;">Property in Pune</a></li>
+                        <li style="margin-bottom: 7px;"><a href="" style="font-size:12px;"> Property in Nashik</a></li>
+                        <li style="margin-bottom: 7px;"><a href="" style="font-size:12px;"> Property in Nagpur</a></li>
+                         <li style="margin-bottom: 7px;"><a href="" style="font-size:12px;"> Property in Bangalore</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
@@ -129,8 +133,11 @@
     </div>
 </footer>
 <!-- ============================ Footer End ================================== -->
-
-<a id="back2Top" class="top-scroll" title="Back to top" href="#"><i class="ti-arrow-up"></i></a>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<a href="https://api.whatsapp.com/send?phone=919578024024&text=Hello, I'm ..." class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
+<!--<a id="back2Top" class="top-scroll" title="Back to top" href="#"><i class="ti-arrow-up"></i></a>-->
 </div>
 
 {!! Theme::footer() !!}

@@ -126,7 +126,7 @@ style="background: url('storage/banners/home-property-image.png') no-repeat; hei
                     <div class="circle-before-icon" style="">
                             <i class="fa fa-users" aria-hidden="true" style="color: #fff;margin-top: 32px;font-size: 22px;"></i>
                     </div>
-                    <h3 style="font-size: 21px;color: #fff;">Face To <br>Face</h3>
+                    <h3 style="font-size: 21px;color: #fff;">Face To <br>Face Meeting</h3>
                     <div class="line"></div>
             </div>
             <div class="col-lg-2 col-md-12 text-center tablinks" onmouseover="openCity(event, 'box3')">
@@ -166,7 +166,7 @@ style="background: url('storage/banners/home-property-image.png') no-repeat; hei
             <div class="col-lg-2 col-md-12 text-center">
                  <div id="box2" class="tabcontent">
                 <p style="font-size: 16px;color: #fff;">Get a 90% Property Details Clear  in FTF.</p> 
-                <a href="#"  data-toggle="modal" data-target="#myModal" class="btn btn-theme-light-2 rounded" style="  padding: 9px 41px;
+                <a href="#"  data-toggle="modal" data-target="#myModal1" class="btn btn-theme-light-2 rounded" style="  padding: 9px 41px;
                     font-weight: bold;
                     background: #fff!important;
                     border: 2px solid #f6c80a!important;
@@ -176,7 +176,7 @@ style="background: url('storage/banners/home-property-image.png') no-repeat; hei
             <div class="col-lg-2 col-md-12 text-center">
                 <div id="box3" class="tabcontent">
                 <p style="font-size: 16px;color: #fff;">Guided site visits with our Area managers</p>
-                <a href="#"  data-toggle="modal" data-target="#myModal" class="btn btn-theme-light-2 rounded " style="  padding: 9px 41px;
+                <a href="#"  data-toggle="modal" data-target="#myModal2" class="btn btn-theme-light-2 rounded " style="  padding: 9px 41px;
                 font-weight: bold;
                 background: #fff!important;
                 border: 2px solid #f6c80a!important;
@@ -186,7 +186,7 @@ style="background: url('storage/banners/home-property-image.png') no-repeat; hei
             <div class="col-lg-2 col-md-12 text-center">
                 <div id="box4" class="tabcontent">
                 <p style="font-size: 16px;color: #fff;">0% Procressing Fees.</p>
-                <a href="#"  data-toggle="modal" data-target="#myModal1" class="btn btn-theme-light-2 rounded" style="  padding: 9px 41px;
+                <a href="#"  data-toggle="modal" data-target="#myModal3" class="btn btn-theme-light-2 rounded" style="  padding: 9px 41px;
                 font-weight: bold;
                 background: #fff!important;
                 border: 2px solid #f6c80a!important;
@@ -196,7 +196,7 @@ style="background: url('storage/banners/home-property-image.png') no-repeat; hei
             <div class="col-lg-2 col-md-12 text-center">
                 <div id="box5" class="tabcontent">
                 <p style="font-size: 16px;color: #fff;">Committed guidance all the way till possession.</p>
-                <a href="#"  data-toggle="modal" data-target="#myModal" class="btn btn-theme-light-2 rounded" style="  padding: 9px 41px;
+                <a href="#"  data-toggle="modal" data-target="#myModal4" class="btn btn-theme-light-2 rounded" style="  padding: 9px 41px;
                 font-weight: bold;
                 background: #fff!important;
                 border: 2px solid #f6c80a!important;
@@ -229,6 +229,88 @@ function openCity(evt, cityName) {
 }
 </script>
 
+
+<!-- mobile section -End To End Assistance -->
+<section class="sm-device pt-0">
+    <div class="container">
+
+        <div class="row justify-content-center">
+            <div class="col-lg-7 col-md-10 text-center">
+                <div class="sec-heading center mb-4">
+                    <h2>End To End Assistance </h2>
+                   
+                </div>
+            </div>
+        </div>
+        <!-- <section class="customer-logos slider"> -->
+            <div class="" style="margin: 0px 20px;text-align: center;">
+                <div class="circle-before-icon2" style=" ">
+                        <i class="fa fa-building" aria-hidden="true" style="color: #fff;margin-top: 32px;font-size: 22px;"></i>
+                        </div>
+                        <h3 style="text-align:center;font-size: 21px;color: #000;">Search & Shortlisting</h3>
+                        <p style="text-align:center;font-size: 16px;color: #000;">Lacs of verified listings from 500+ reputed developers</p>
+                <!--        <a href="#"  data-toggle="modal" data-target="#myModal" class="btn btn-theme-light-2 rounded" style="  padding: 9px 41px;-->
+                <!--font-weight: bold;-->
+                <!--background: #fff!important;-->
+                <!--border: 2px solid #f6c80a!important;-->
+                <!--color: #f6c80a!important;">With Us</a>-->
+            </div>
+            <br>
+            <div class="" style="margin: 0px 20px;text-align: center;">
+                <div class="circle-before-icon2" style="">
+                            <i class="fa fa-users" aria-hidden="true" style="color: #fff;margin-top: 32px;font-size: 22px;"></i>
+                    </div>
+                    <h3 style="text-align:center;font-size: 21px;color: #000;">Face To Face Meeting</h3>
+                    <p style="text-align:center;font-size: 16px;color: #000;">Get a 90% Property Details Clear  in FTF.</p> 
+                <!--    <a href="#"  data-toggle="modal" data-target="#myModal" class="btn btn-theme-light-2 rounded" style="  padding: 9px 41px;-->
+                <!--font-weight: bold;-->
+                <!--background: #fff!important;-->
+                <!--border: 2px solid #f6c80a!important;-->
+                <!--color: #f6c80a!important;">With Us</a>-->
+            </div>
+            <br>
+            <div class="" style="margin: 0px 20px;text-align: center;">
+                <div class="circle-before-icon2">
+                            <i class="fa fa-car" aria-hidden="true" style="color: #fff;margin-top: 32px;font-size: 22px;"></i>
+                </div>
+                <h3 style="text-align:center;font-size: 21px;color: #000;">Site Visit</h3>
+                <p style="text-align:center;font-size: 16px;color: #000;">Guided site visits with our Area managers</p>
+                <!--<a href="#"  data-toggle="modal" data-target="#myModal" class="btn btn-theme-light-2 rounded" style="  padding: 9px 41px;-->
+                <!--font-weight: bold;-->
+                <!--background: #fff!important;-->
+                <!--border: 2px solid #f6c80a!important;-->
+                <!--color: #f6c80a!important;">With Us</a>-->
+            </div>
+            <br>
+            <div class="" style="margin: 0px 20px;text-align: center;">
+                    <div class="circle-before-icon2" style="">
+                        <i class="fa fa-university" style="color: #fff;margin-top: 32px;font-size: 22px;"></i>
+                    </div>
+                    <h3 style="text-align:center;font-size: 21px;color: #000;">Home Loan Assistance</h3>
+                    <p style="text-align:center;font-size: 16px;color: #000;">0% Procressing Fees.</p>
+                <!--    <a href="#"  data-toggle="modal" data-target="#myModal1" class="btn btn-theme-light-2 rounded" style="  padding: 9px 41px;-->
+                <!--font-weight: bold;-->
+                <!--background: #fff!important;-->
+                <!--border: 2px solid #f6c80a!important;-->
+                <!--color: #f6c80a!important;">Apply Homeloan</a>-->
+            </div>
+            <br>
+            <div class="" style="margin: 0px 20px;text-align: center;">
+                    <div class="circle-before-icon2" >
+                        <i class="fa fa-key" aria-hidden="true" style="color: #fff;margin-top: 32px;font-size: 22px;"></i>
+                    </div>
+                    <h3 style="text-align:center;font-size: 21px;color: #000;">Book Your Unit Key</h3>
+                    <p style="text-align:center;font-size: 16px;color: #000;">Committed guidance all the way till possession.</p>
+                <!--     <a href="#"  data-toggle="modal" data-target="#myModal" class="btn btn-theme-light-2 rounded" style="  padding: 9px 41px;-->
+                <!--font-weight: bold;-->
+                <!--background: #fff!important;-->
+                <!--border: 2px solid #f6c80a!important;-->
+                <!--color: #f6c80a!important;">With Us</a>-->
+            </div>
+            
+        <!-- </section> -->
+    </div>
+</section>
 <!-- Modal -->
 <div class="modal" id="myModal">
     <div class="modal-dialog">
@@ -244,7 +326,7 @@ function openCity(evt, cityName) {
         <div class="modal-body">
             <h4 class="modal-title" style="text-align: center;
             font-size: 21px;font-weight: 500;">Connect with Gruham24</h4>
-             <button type="button" class="close" data-dismiss="modal"  style="    margin-top: -29px;">&times;</button><br>
+             <button type="button" class="close" data-dismiss="modal"  style="margin-top: -29px;">&times;</button><br>
             <!--Grid column-->
             <div class="col-md-12 mb-md-0 mb-5">
                 <form id="contact-form" name="contact-form" action="mail.php" method="POST">
@@ -255,6 +337,7 @@ function openCity(evt, cityName) {
                             <!--Grid column-->
                             <div class="col-md-12">
                                 <div class="md-form mb-0" >
+                                  <label>Customer Name:</label>
                                     <input type="text" id="name" name="name" 
                                     class="form-control" placeholder="Name" style="    margin-bottom: 20px;" require>
                                 </div>
@@ -264,6 +347,7 @@ function openCity(evt, cityName) {
                             <!--Grid column-->
                             <div class="col-md-12">
                                 <div class="md-form mb-0">
+                                  <label>Email:</label>
                                     <input type="email" id="email" name="email" class="form-control" style="   margin-bottom: 20px;"
                                      placeholder="Email" require>
                                 </div>
@@ -271,8 +355,17 @@ function openCity(evt, cityName) {
                             <!--Grid column-->
                             <div class="col-md-12">
                                 <div class="md-form mb-0">
+                                  <label>Mobile Number:</label>
                                     <input type="tel"  id="MobileNumber" name="phone" class="form-control " style="    margin-bottom: 20px;"
                                      placeholder="Mobile Number" require>
+                                </div>
+                            </div>
+                          <!--Grid column-->
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                  <label>Subject:</label>
+                                    <input type="text"  id="subject" name="subject" class="form-control " style="margin-bottom: 20px;"
+                                    value="Picking Out & Shortlisting"  readonly>
                                 </div>
                             </div>
                         </div>
@@ -323,107 +416,467 @@ function openCity(evt, cityName) {
     </div>
 </div>
 
-<!-- Modal 2-->
+
+
+ <!-- Modal -->
 <div class="modal" id="myModal1">
     <div class="modal-dialog">
       <div class="modal-content">
       
-      
+        <!-- Modal Header -->
+        <!-- <div class="modal-header">
+          <h4 class="modal-title">Connect with Gruham24</h4>
+          <button type="button" class="close" data-dismiss="modal" >&times;</button>
+        </div> -->
+        
         <!-- Modal body -->
         <div class="modal-body">
             <h4 class="modal-title" style="text-align: center;
             font-size: 21px;font-weight: 500;">Connect with Gruham24</h4>
              <button type="button" class="close" data-dismiss="modal"  style="    margin-top: -29px;">&times;</button><br>
-           
-                
+            <!--Grid column-->
+            <div class="col-md-12 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                    <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-md-12">
+                                <div class="md-form mb-0" >
+                                  <label>Customer Name:</label>
+                                    <input type="text" id="name" name="name" 
+                                    class="form-control" placeholder="Name" style="    margin-bottom: 20px;" require>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                  <label>Email:</label>
+                                    <input type="email" id="email" name="email" class="form-control" style="   margin-bottom: 20px;"
+                                     placeholder="Email" require>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                  <label>Mobile Number:</label>
+                                    <input type="tel"  id="MobileNumber" name="phone" class="form-control " style="    margin-bottom: 20px;"
+                                     placeholder="Mobile Number" require>
+                                </div>
+                            </div>
+                          <!--Grid column-->
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                  <label>Subject:</label>
+                                    <input type="text"  id="subject" name="subject" class="form-control " style="margin-bottom: 20px;"
+                                    value="Face To Face Meeting"  readonly>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Grid row-->
+                    </form>
+                    <div class="text-center text-md-left">
+                        <a class="btn btn-black"><i class="fa fa-phone"></i> &nbsp; Get Call Back</a>
+                    </div>
+                    <br> <br>
+                </div>
+               
+                <div>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <span class="wrap-icon lg-device" style="    margin-left: 47px;"><i class="fa fa-user-secret" aria-hidden="true"></i></span>
+                            <div class="txt" style="padding: 10px;font-size: 12px;text-align: center;">ASSURED
+                                        <br>PRIVACY</div>
+                                    <div class="clear"></div>
+                        </div> 
+                        <div class="col-lg-3">
+                        <span class="wrap-icon lg-device" style="    margin-left: 47px;"><i class="fa fa-user-secret" aria-hidden="true"></i></span>
+                                    <div class="txt" style="padding: 10px;font-size: 12px;text-align: center;">EXPERT
+                                        <br>CONSULTATION</div>
+                                    <div class="clear"></div>
+                        </div>   
+                        <div class="col-lg-3">
+                        <span class="wrap-icon lg-device" style="    margin-left: 47px;"><i class="fa fa-user-secret" aria-hidden="true"></i></span>
+                                    <div class="txt" style="padding: 10px;font-size: 12px;text-align: center;">FREE
+                                        <br>SITE VISIT</div>
+                                    <div class="clear"></div>
+                        </div>  
+                        <div class="col-lg-3">
+                        <span class="wrap-icon lg-device" style="    margin-left: 47px;"><i class="fa fa-user-secret" aria-hidden="true"></i></span>
+                                <div class="txt" style="padding: 10px;font-size: 12px;text-align: center;">BEST
+                                    <br>PRICE</div>
+                                <div class="clear"></div>
+                        </div>  
+                    </div>
+                </div>
         </div>
         
-          
+            <!-- Modal footer -->
+            <!-- <div class="modal-footer">
+             <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div> -->
         
       </div>
     </div>
 </div>
-<!-- mobile section -End To End Assistance -->
-<section class="sm-device pt-0">
-    <div class="container">
 
-        <div class="row justify-content-center">
-            <div class="col-lg-7 col-md-10 text-center">
-                <div class="sec-heading center mb-4">
-                    <h2>End To End Assistance </h2>
-                   
-                </div>
-            </div>
-        </div>
-        <!-- <section class="customer-logos slider"> -->
-            <div class="" style="margin: 0px 20px;text-align: center;">
-                <div class="circle-before-icon2" style=" ">
-                        <i class="fa fa-building" aria-hidden="true" style="color: #fff;margin-top: 32px;font-size: 22px;"></i>
+
+ <!-- Modal -->
+<div class="modal" id="myModal2">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <!-- <div class="modal-header">
+          <h4 class="modal-title">Connect with Gruham24</h4>
+          <button type="button" class="close" data-dismiss="modal" >&times;</button>
+        </div> -->
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+            <h4 class="modal-title" style="text-align: center;
+            font-size: 21px;font-weight: 500;">Connect with Gruham24</h4>
+             <button type="button" class="close" data-dismiss="modal"  style="    margin-top: -29px;">&times;</button><br>
+            <!--Grid column-->
+            <div class="col-md-12 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                    <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-md-12">
+                                <div class="md-form mb-0" >
+                                  <label>Customer Name:</label>
+                                    <input type="text" id="name" name="name" 
+                                    class="form-control" placeholder="Name" style="    margin-bottom: 20px;" require>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                  <label>Email:</label>
+                                    <input type="email" id="email" name="email" class="form-control" style="   margin-bottom: 20px;"
+                                     placeholder="Email" require>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                  <label>Mobile Number:</label>
+                                    <input type="tel"  id="MobileNumber" name="phone" class="form-control " style="    margin-bottom: 20px;"
+                                     placeholder="Mobile Number" require>
+                                </div>
+                            </div>
+                          <!--Grid column-->
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                  <label>Subject:</label>
+                                    <input type="text"  id="subject" name="subject" class="form-control " style="margin-bottom: 20px;"
+                                    value="Site Visit"  readonly>
+                                </div>
+                            </div>
                         </div>
-                        <h3 style="text-align:center;font-size: 21px;color: #000;">Search & Shortlisting</h3>
-                        <p style="text-align:center;font-size: 16px;color: #000;">Lacs of verified listings from 500+ reputed developers</p>
-                        <a href="#"  data-toggle="modal" data-target="#myModal" class="btn btn-theme-light-2 rounded" style="  padding: 9px 41px;
-                font-weight: bold;
-                background: #fff!important;
-                border: 2px solid #f6c80a!important;
-                color: #f6c80a!important;">With Us</a>
-            </div>
-            <br>
-            <div class="" style="margin: 0px 20px;text-align: center;">
-                <div class="circle-before-icon2" style="">
-                            <i class="fa fa-users" aria-hidden="true" style="color: #fff;margin-top: 32px;font-size: 22px;"></i>
+                        <!--Grid row-->
+                    </form>
+                    <div class="text-center text-md-left">
+                        <a class="btn btn-black"><i class="fa fa-phone"></i> &nbsp; Get Call Back</a>
                     </div>
-                    <h3 style="text-align:center;font-size: 21px;color: #000;">Face To Face</h3>
-                    <p style="text-align:center;font-size: 16px;color: #000;">Get a 90% Property Details Clear  in FTF.</p> 
-                    <a href="#"  data-toggle="modal" data-target="#myModal" class="btn btn-theme-light-2 rounded" style="  padding: 9px 41px;
-                font-weight: bold;
-                background: #fff!important;
-                border: 2px solid #f6c80a!important;
-                color: #f6c80a!important;">With Us</a>
-            </div>
-            <br>
-            <div class="" style="margin: 0px 20px;text-align: center;">
-                <div class="circle-before-icon2">
-                            <i class="fa fa-car" aria-hidden="true" style="color: #fff;margin-top: 32px;font-size: 22px;"></i>
+                    <br> <br>
                 </div>
-                <h3 style="text-align:center;font-size: 21px;color: #000;">Site Visit</h3>
-                <p style="text-align:center;font-size: 16px;color: #000;">Guided site visits with our Area managers</p>
-                <a href="#"  data-toggle="modal" data-target="#myModal" class="btn btn-theme-light-2 rounded" style="  padding: 9px 41px;
-                font-weight: bold;
-                background: #fff!important;
-                border: 2px solid #f6c80a!important;
-                color: #f6c80a!important;">With Us</a>
-            </div>
-            <br>
-            <div class="" style="margin: 0px 20px;text-align: center;">
-                    <div class="circle-before-icon2" style="">
-                        <i class="fa fa-university" style="color: #fff;margin-top: 32px;font-size: 22px;"></i>
+               
+                <div>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <span class="wrap-icon lg-device" style="    margin-left: 47px;"><i class="fa fa-user-secret" aria-hidden="true"></i></span>
+                            <div class="txt" style="padding: 10px;font-size: 12px;text-align: center;">ASSURED
+                                        <br>PRIVACY</div>
+                                    <div class="clear"></div>
+                        </div> 
+                        <div class="col-lg-3">
+                        <span class="wrap-icon lg-device" style="    margin-left: 47px;"><i class="fa fa-user-secret" aria-hidden="true"></i></span>
+                                    <div class="txt" style="padding: 10px;font-size: 12px;text-align: center;">EXPERT
+                                        <br>CONSULTATION</div>
+                                    <div class="clear"></div>
+                        </div>   
+                        <div class="col-lg-3">
+                        <span class="wrap-icon lg-device" style="    margin-left: 47px;"><i class="fa fa-user-secret" aria-hidden="true"></i></span>
+                                    <div class="txt" style="padding: 10px;font-size: 12px;text-align: center;">FREE
+                                        <br>SITE VISIT</div>
+                                    <div class="clear"></div>
+                        </div>  
+                        <div class="col-lg-3">
+                        <span class="wrap-icon lg-device" style="    margin-left: 47px;"><i class="fa fa-user-secret" aria-hidden="true"></i></span>
+                                <div class="txt" style="padding: 10px;font-size: 12px;text-align: center;">BEST
+                                    <br>PRICE</div>
+                                <div class="clear"></div>
+                        </div>  
                     </div>
-                    <h3 style="text-align:center;font-size: 21px;color: #000;">Home Loan Assistance</h3>
-                    <p style="text-align:center;font-size: 16px;color: #000;">0% Procressing Fees.</p>
-                    <a href="#"  data-toggle="modal" data-target="#myModal1" class="btn btn-theme-light-2 rounded" style="  padding: 9px 41px;
-                font-weight: bold;
-                background: #fff!important;
-                border: 2px solid #f6c80a!important;
-                color: #f6c80a!important;">Apply Homeloan</a>
-            </div>
-            <br>
-            <div class="" style="margin: 0px 20px;text-align: center;">
-                    <div class="circle-before-icon2" >
-                        <i class="fa fa-key" aria-hidden="true" style="color: #fff;margin-top: 32px;font-size: 22px;"></i>
-                    </div>
-                    <h3 style="text-align:center;font-size: 21px;color: #000;">Book Your Unit Key</h3>
-                    <p style="text-align:center;font-size: 16px;color: #000;">Committed guidance all the way till possession.</p>
-                     <a href="#"  data-toggle="modal" data-target="#myModal" class="btn btn-theme-light-2 rounded" style="  padding: 9px 41px;
-                font-weight: bold;
-                background: #fff!important;
-                border: 2px solid #f6c80a!important;
-                color: #f6c80a!important;">With Us</a>
-            </div>
-            
-        <!-- </section> -->
+                </div>
+        </div>
+        
+            <!-- Modal footer -->
+            <!-- <div class="modal-footer">
+             <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div> -->
+        
+      </div>
     </div>
-</section>
+</div>
+
+ <!-- Modal -->
+<div class="modal" id="myModal3">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <!-- <div class="modal-header">
+          <h4 class="modal-title">Connect with Gruham24</h4>
+          <button type="button" class="close" data-dismiss="modal" >&times;</button>
+        </div> -->
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+            <h4 class="modal-title" style="text-align: center;
+            font-size: 21px;font-weight: 500;">Connect with Gruham24</h4>
+             <button type="button" class="close" data-dismiss="modal"  style="    margin-top: -29px;">&times;</button><br>
+            <!--Grid column-->
+            <div class="col-md-12 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                    <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-md-12">
+                                <div class="md-form mb-0" >
+                                  <label>Customer Name:</label>
+                                    <input type="text" id="name" name="name" 
+                                    class="form-control" placeholder="Name" style="margin-bottom: 20px;" require>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                  <label>Email:</label>
+                                    <input type="email" id="email" name="email" class="form-control" style="   margin-bottom: 20px;"
+                                     placeholder="Email" require>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                  <label>Mobile Number:</label>
+                                    <input type="tel"  id="MobileNumber" name="phone" class="form-control " style="    margin-bottom: 20px;"
+                                     placeholder="Mobile Number" require>
+                                </div>
+                            </div>
+                          <!--Grid column-->
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                  <label>Subject:</label>
+                                    <input type="text"  id="subject" name="subject" class="form-control " style="margin-bottom: 20px;"
+                                    value="Home Loan Assistance"  readonly>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Grid row-->
+                    </form>
+                    <div class="text-center text-md-left">
+                        <a class="btn btn-black"><i class="fa fa-phone"></i> &nbsp; Get Call Back</a>
+                    </div>
+                    <br> <br>
+                </div>
+               
+                <div>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <span class="wrap-icon lg-device" style="    margin-left: 47px;"><i class="fa fa-user-secret" aria-hidden="true"></i></span>
+                            <div class="txt" style="padding: 10px;font-size: 12px;text-align: center;">ASSURED
+                                        <br>PRIVACY</div>
+                                    <div class="clear"></div>
+                        </div> 
+                        <div class="col-lg-3">
+                        <span class="wrap-icon lg-device" style="    margin-left: 47px;"><i class="fa fa-user-secret" aria-hidden="true"></i></span>
+                                    <div class="txt" style="padding: 10px;font-size: 12px;text-align: center;">EXPERT
+                                        <br>CONSULTATION</div>
+                                    <div class="clear"></div>
+                        </div>   
+                        <div class="col-lg-3">
+                        <span class="wrap-icon lg-device" style="    margin-left: 47px;"><i class="fa fa-user-secret" aria-hidden="true"></i></span>
+                                    <div class="txt" style="padding: 10px;font-size: 12px;text-align: center;">FREE
+                                        <br>SITE VISIT</div>
+                                    <div class="clear"></div>
+                        </div>  
+                        <div class="col-lg-3">
+                        <span class="wrap-icon lg-device" style="    margin-left: 47px;"><i class="fa fa-user-secret" aria-hidden="true"></i></span>
+                                <div class="txt" style="padding: 10px;font-size: 12px;text-align: center;">BEST
+                                    <br>PRICE</div>
+                                <div class="clear"></div>
+                        </div>  
+                    </div>
+                </div>
+        </div>
+        
+            <!-- Modal footer -->
+            <!-- <div class="modal-footer">
+             <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div> -->
+        
+      </div>
+    </div>
+</div>
+
+ <!-- Modal -->
+<div class="modal" id="myModal4">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <!-- <div class="modal-header">
+          <h4 class="modal-title">Connect with Gruham24</h4>
+          <button type="button" class="close" data-dismiss="modal" >&times;</button>
+        </div> -->
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+            <h4 class="modal-title" style="text-align: center;
+            font-size: 21px;font-weight: 500;">Connect with Gruham24</h4>
+             <button type="button" class="close" data-dismiss="modal"  style="    margin-top: -29px;">&times;</button><br>
+            <!--Grid column-->
+            <div class="col-md-12 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                    <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-md-12">
+                                <div class="md-form mb-0" >
+                                  <label>Customer Name:</label>
+                                    <input type="text" id="name" name="name" 
+                                    class="form-control" placeholder="Name" style="    margin-bottom: 20px;" require>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                  <label>Email:</label>
+                                    <input type="email" id="email" name="email" class="form-control" style="   margin-bottom: 20px;"
+                                     placeholder="Email" require>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                  <label>Mobile Number:</label>
+                                    <input type="tel"  id="MobileNumber" name="phone" class="form-control " style="    margin-bottom: 20px;"
+                                     placeholder="Mobile Number" require>
+                                </div>
+                            </div>
+                          <!--Grid column-->
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                  <label>Subject:</label>
+                                    <input type="text"  id="subject" name="subject" class="form-control " style="margin-bottom: 20px;"
+                                    value="Book Your Unit Key"  readonly>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Grid row-->
+                    </form>
+                    <div class="text-center text-md-left">
+                        <a class="btn btn-black"><i class="fa fa-phone"></i> &nbsp; Get Call Back</a>
+                    </div>
+                    <br> <br>
+                </div>
+               
+                <div>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <span class="wrap-icon lg-device" style="    margin-left: 47px;"><i class="fa fa-user-secret" aria-hidden="true"></i></span>
+                            <div class="txt" style="padding: 10px;font-size: 12px;text-align: center;">ASSURED
+                                        <br>PRIVACY</div>
+                                    <div class="clear"></div>
+                        </div> 
+                        <div class="col-lg-3">
+                        <span class="wrap-icon lg-device" style="    margin-left: 47px;"><i class="fa fa-user-secret" aria-hidden="true"></i></span>
+                                    <div class="txt" style="padding: 10px;font-size: 12px;text-align: center;">EXPERT
+                                        <br>CONSULTATION</div>
+                                    <div class="clear"></div>
+                        </div>   
+                        <div class="col-lg-3">
+                        <span class="wrap-icon lg-device" style="    margin-left: 47px;"><i class="fa fa-user-secret" aria-hidden="true"></i></span>
+                                    <div class="txt" style="padding: 10px;font-size: 12px;text-align: center;">FREE
+                                        <br>SITE VISIT</div>
+                                    <div class="clear"></div>
+                        </div>  
+                        <div class="col-lg-3">
+                        <span class="wrap-icon lg-device" style="    margin-left: 47px;"><i class="fa fa-user-secret" aria-hidden="true"></i></span>
+                                <div class="txt" style="padding: 10px;font-size: 12px;text-align: center;">BEST
+                                    <br>PRICE</div>
+                                <div class="clear"></div>
+                        </div>  
+                    </div>
+                </div>
+        </div>
+        
+            <!-- Modal footer -->
+            <!-- <div class="modal-footer">
+             <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div> -->
+        
+      </div>
+    </div>
+</div>
+
+<script>
+
+// Get the button that opens the modal
+var btn = document.querySelectorAll("button.modal-button");
+
+// All page modals
+var modals = document.querySelectorAll('.modal');
+
+// Get the <span> element that closes the modal
+var spans = document.getElementsByClassName("close");
+
+// When the user clicks the button, open the modal
+for (var i = 0; i < btn.length; i++) {
+ btn[i].onclick = function(e) {
+    e.preventDefault();
+    modal = document.querySelector(e.target.getAttribute("href"));
+    modal.style.display = "block";
+ }
+}
+
+// When the user clicks on <span> (x), close the modal
+for (var i = 0; i < spans.length; i++) {
+ spans[i].onclick = function() {
+    for (var index in modals) {
+      if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";    
+    }
+ }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target.classList.contains('modal')) {
+     for (var index in modals) {
+      if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";    
+     }
+    }
+}
+</script>
 
 <!-- Testimonials -->
 <section class="bg-orange">
@@ -433,7 +886,7 @@ function openCity(evt, cityName) {
             <div class="col-lg-7 col-md-10 text-center">
                 <div class="sec-heading center">
                     <h2>{!! clean($title) !!}</h2>
-                    <p>{!! clean($description) !!}</p>
+                    <!--<p>{!! clean($description) !!}</p>-->
                 </div>
             </div>
         </div>
@@ -555,89 +1008,108 @@ function openCity(evt, cityName) {
        }
 </style>
 <section class="pt-0" >
-    
     <div id="ac-wrapper" style='display:none'>
         <div id="popup">
             <center>
                 <h2>Enquiry Form</h2>
-                <!-- <p>We help you find your new home!!</p> -->
-            <div class="row">
-
-                <!--Grid column-->
-                <div class="col-md-12 mb-md-0 mb-5">
-                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-
-                        <!--Grid row-->
-                        <div class="row">
-
-                            <!--Grid column-->
-                            <div class="col-md-6">
-                                <div class="md-form mb-0" >
-                                    <input type="text" id="name" name="name" 
-                                    class="form-control input-box" placeholder="Name" style="">
-                                    <!-- <label for="name" class="">Your name</label> -->
+            		<div class="row">
+		                <!--Grid column-->
+        		        <div class="col-md-12 mb-md-0 mb-5">
+                		    <form autocomplete="off" action="">
+		                        <div class="row">
+		                            <div class="col-md-6">
+        		                        <div class="md-form mb-0" >
+                		                  <input type="text" id="fieldName" name="name"  class="form-control input-box name"
+                        	                placeholder="Your Name *"  required >
+                            		    </div>
+                            		</div>
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                       <input type="email" id="fieldEmail" name="email" class="form-control input-box"
+                                             placeholder="Email" required>
+                                    </div>
+                                 </div>
+		                        </div>
+		                        <div class="row">
+        		                    <div class="col-md-6">
+                		                <div class="md-form mb-0">
+                        		            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}"
+                                                   class="form-control input-box"
+                                		     placeholder="Mobile Number" required>
+                                		</div>
+                            		</div>
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="subject" name="subject" class="form-control input-box" 
+                                        placeholder="Subject" required>
+                                    </div>
                                 </div>
                             </div>
-                            <!--Grid column-->
-
-                            <!--Grid column-->
-                            <div class="col-md-6">
-                                <div class="md-form mb-0">
-                                    <input type="text" id="email" name="email" class="form-control input-box"
-                                     placeholder="Email">
-                                    <!-- <label for="email" class="">Your email</label> -->
-                                </div>
-                            </div>
-                            <!--Grid column-->
-
-                        </div>
-                        <!--Grid row-->
-
-                        <!--Grid row-->
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="md-form mb-0">
-                                    <input type="tel" id="MobileNumber" name="phone" class="form-control input-box"
-                                     placeholder="Mobile Number">
-                                    <!-- <label for="subject" class="">Subject</label> -->
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="md-form mb-0">
-                                    <input type="text" id="subject" name="subject" class="form-control input-box" 
-                                    placeholder="Subject">
-                                    <!-- <label for="subject" class="">Subject</label> -->
-                                </div>
-                            </div>
-                        </div>
-                        <!--Grid row-->
-
-                        <!--Grid row-->
-                        <div class="row">
-
-                            <!--Grid column-->
-                            <div class="col-md-12 col-lg-12">
-
-                                <div class="md-form">
-                                    <textarea type="text" id="message" name="message" rows="2"
-                                     class="form-control md-textarea input-box" placeholder="Your message" 
-                                    ></textarea>
-                                    <!-- <label for="message">Your message</label> -->
-                                </div>
-
-                            </div>
-                        </div>
-                        <!--Grid row-->
-
-                    </form>
-                </div>
-            </div>
-            <div class="text-center text-md-left">
-                <a class="btn btn-black" onClick="PopUp('hide')">Submit</a>
-            </div>
-               
+		                        <div class="row">
+		                            <div class="col-md-12 col-lg-12">
+		                                <div class="md-form">
+        		                            <textarea type="text" id="message" name="message" rows="2"
+	                		                     class="form-control md-textarea input-box" placeholder="Your message"  required></textarea>
+                                		</div>
+		                            </div>
+        		                </div>
+                            <div class="text-center text-md-left">
+                              <!--<a class="btn btn-black" onClick="PopUp('hide')">Submit</a>--> 
+                              <button type="submit" class="btn btn-black" onClick="gotowhatsapp()">Submit</button>
+                            <!--   <input type="submit" name="submit" onclick="gotowhatsapp()" class="btn btn-black" value="Submit"/>-->
+                        		</div>
+                    		</form>
+                		</div>
+            		</div>
             </center>
         </div>
     </div>
-    
 </section>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+ function gotowhatsapp() {
+  
+    var name = document.getElementById("fieldName").value;
+    var phone = document.getElementById("phone").value;
+    var email = document.getElementById("fieldEmail").value;
+    var subject = document.getElementById("subject").value;
+	var message = document.getElementById("message").value;
+	if( name === "" || phone === "" || email === "" || subject === "" || message === "")
+    {
+    	toast("Please fill all field");
+    }
+      else{
+      
+        var url = "https://api.whatsapp.com/send?phone=919578024024&text=" 
+    + "Name: " + name + "%0a"
+    + "Phone: " + phone + "%0a"
+    + "Email: " + email  + "%0a"
+    + "Subject: " + subject + "%0a"
+    + "Message: " + message; 
+
+    window.open(url, '_blank').focus(); 
+    localStorage.setItem("lastname", "Gruham");
+   document.getElementById('ac-wrapper').style.display = "none";
+    }
+   
+}
+   
+	function getLocal(){
+    	var localSto = localStorage.getItem("lastname");
+        if( localSto == "Gruham"){
+         // alert(localSto);
+          document.getElementById('ac-wrapper').style.display = "none";
+        }
+        else{
+          setTimeout(alertFunc, 8000);
+        }
+    }
+  function alertFunc() {
+               document.getElementById('ac-wrapper').style.display = "block";
+    //alert("Hiiiiiiiiiii");
+            }
+ 
+getLocal();
+
+</script>

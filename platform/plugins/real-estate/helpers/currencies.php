@@ -99,14 +99,18 @@ if (!function_exists('human_price_text')) {
             $thousandSeparator = ' ';
         }
 
-        $price = number_format(
-            $price,
-            $numberAfterDot,
-            $decimalSeparator,
-            $thousandSeparator
-        );
+        // $price = number_format(
+        //     // $price,
+        //     // $numberAfterDot,
+        //     // $decimalSeparator,
+        //     // $thousandSeparator
+        // );
+        
+        $price;
+                 return $price ;
 
-        return $price . ($priceUnit ?: '');
+
+        // return $price . ($priceUnit ?: '');
     }
 }
 

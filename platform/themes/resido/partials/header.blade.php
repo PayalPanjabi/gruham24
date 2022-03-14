@@ -215,9 +215,7 @@ function hideHover(e){
             else document.getElementById('ac-wrapper').removeAttribute('style');
         }
         window.onload = function () {
-            setTimeout(function () {
-                PopUp('show');
-            }, 5000);
+              
         }
     </script>
     <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
@@ -354,12 +352,12 @@ function hideHover(e){
                     <a href="{{ route('public.wishlist') }}"><i class="fas fa-heart"></i> Favourites (<span class="wishlist-count">0</span>)</a>
                     </li>
 
-                    <li class="menu-item-has-children" style="color:#e2b52d;">
-                    <a href="{{ route('public.account.login') }}">
-                    <i class="fa fa-user" style="font-size: 14px;"></i>
+                    <!--<li class="menu-item-has-children" style="color:#e2b52d;">-->
+                    <!--<a href="{{ route('public.account.login') }}">-->
+                    <!--<i class="fa fa-user" style="font-size: 14px;"></i>-->
                     <!-- <img src="{{ Theme::asset()->url('') }}/img/user-light.svg" width="12" alt="" class="mr-2" style="color:#e2b52d;"/> -->
-                    Login</a>
-                    </li>
+                    <!--Login</a>-->
+                    <!--</li>-->
                 </ul>
                 
                 
@@ -413,12 +411,12 @@ function hideHover(e){
                             <div class="mobile-menu-item mobile-wishlist">
                             <a href="{{ route('public.wishlist') }}"><i class="fas fa-heart"></i> Favourites (<span class="wishlist-count">0</span>)</a>
                             </div>
-                            <div class="mobile-menu-item mobile-wishlist">
-                            <a href="{{ route('public.account.login') }}">
-                            <i class="fa fa-arrow-circle-right" style="font-size: 14px;"></i>
+                            <!--<div class="mobile-menu-item mobile-wishlist">-->
+                            <!--<a href="{{ route('public.account.login') }}">-->
+                            <!--<i class="fa fa-arrow-circle-right" style="font-size: 14px;"></i>-->
                             <!-- <img src="{{ Theme::asset()->url('') }}/img/user-light.svg" width="12" alt="" class="mr-2" /> -->
-                            Login</a>
-                            </div>
+                            <!--Login</a>-->
+                            <!--</div>-->
                             <div class="mobile-menu-item mobile-wishlist">
                             <a href="tel:+91 9578024024" style="border: 1px solid #000;
                                     color: #000;font-size: 12px;padding: 12px 19px;width: 200px;text-align: center;margin-top: 20px;border-radius: 26px;">
